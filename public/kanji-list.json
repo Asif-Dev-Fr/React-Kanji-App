@@ -1,5 +1,5 @@
 {
-  "shougakkou": [
+  "GradeOne": [
     {
       "kanji": "一",
       "radical": "一",
@@ -1225,7 +1225,9 @@
         ]
       },
       "translation": "white"
-    },
+    }
+  ],
+  "GradeTwo": [
     {
       "kanji": "数",
       "radical": "攴",
@@ -3576,7 +3578,9 @@
         ]
       },
       "translation": "what"
-    },
+    }
+  ],
+  "GradeThree" : [
     {
       "kanji": "丁",
       "radical": "一",
@@ -6419,7 +6423,9 @@
         ]
       },
       "translation": "nose"
-    },
+    }
+  ],
+  "GradeFour" : [
     {
       "kanji": "不",
       "radical": "一",
@@ -9178,2529 +9184,2535 @@
         "onyomi": []
       },
       "translation": "test"
-    },
-    {
-      "kanji": "久",
-      "radical": "丿",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きゅう",
-          "（く）"
-        ],
-        "onyomi": [
-          "ひさ-しい"
-        ]
-      },
-      "translation": "long time"
-    },
-    {
-      "kanji": "仏",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぶつ"
-        ],
-        "onyomi": [
-          "ほとけ"
-        ]
-      },
-      "translation": "Buddha"
-    },
-    {
-      "kanji": "仮",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "か",
-          "（け）"
-        ],
-        "onyomi": [
-          "かり"
-        ]
-      },
-      "translation": "temporary"
-    },
-    {
-      "kanji": "件",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "けん"
-        ],
-        "onyomi": []
-      },
-      "translation": "affair"
-    },
-    {
-      "kanji": "任",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "にん"
-        ],
-        "onyomi": [
-          "まか-せる",
-          "まか-す"
-        ]
-      },
-      "translation": "responsibility"
-    },
-    {
-      "kanji": "似",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じ"
-        ],
-        "onyomi": [
-          "に-る"
-        ]
-      },
-      "translation": "becoming"
-    },
-    {
-      "kanji": "余",
-      "radical": "食",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "よ"
-        ],
-        "onyomi": [
-          "あま-る",
-          "あま-す"
-        ]
-      },
-      "translation": "leave over"
-    },
-    {
-      "kanji": "価",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "か"
-        ],
-        "onyomi": [
-          "あたい"
-        ]
-      },
-      "translation": "value"
-    },
-    {
-      "kanji": "保",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ほ"
-        ],
-        "onyomi": [
-          "たも-つ"
-        ]
-      },
-      "translation": "preserve"
-    },
-    {
-      "kanji": "修",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しゅう",
-          "（しゅ）"
-        ],
-        "onyomi": [
-          "おさ-める",
-          "おさ-まる"
-        ]
-      },
-      "translation": "discipline"
-    },
-    {
-      "kanji": "俵",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ひょう"
-        ],
-        "onyomi": [
-          "たわら"
-        ]
-      },
-      "translation": "bag"
-    },
-    {
-      "kanji": "個",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こ"
-        ],
-        "onyomi": []
-      },
-      "translation": "individual"
-    },
-    {
-      "kanji": "備",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "び"
-        ],
-        "onyomi": [
-          "そな-える",
-          "そな-わる"
-        ]
-      },
-      "translation": "provide"
-    },
-    {
-      "kanji": "像",
-      "radical": "人",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぞう"
-        ],
-        "onyomi": []
-      },
-      "translation": "statue"
-    },
-    {
-      "kanji": "再",
-      "radical": "冂",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さい",
-          "（さ）"
-        ],
-        "onyomi": [
-          "ふたた-び"
-        ]
-      },
-      "translation": "again"
-    },
-    {
-      "kanji": "刊",
-      "radical": "刀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かん"
-        ],
-        "onyomi": []
-      },
-      "translation": "publish"
-    },
-    {
-      "kanji": "判",
-      "radical": "刀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "はん",
-          "ばん"
-        ],
-        "onyomi": []
-      },
-      "translation": "judge"
-    },
-    {
-      "kanji": "制",
-      "radical": "刀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せい"
-        ],
-        "onyomi": []
-      },
-      "translation": "control"
-    },
-    {
-      "kanji": "券",
-      "radical": "刀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "けん"
-        ],
-        "onyomi": []
-      },
-      "translation": "ticket"
-    },
-    {
-      "kanji": "則",
-      "radical": "刀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そく"
-        ],
-        "onyomi": []
-      },
-      "translation": "rule"
-    },
-    {
-      "kanji": "効",
-      "radical": "力",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう"
-        ],
-        "onyomi": [
-          "き-く"
-        ]
-      },
-      "translation": "effect"
-    },
-    {
-      "kanji": "務",
-      "radical": "力",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "む"
-        ],
-        "onyomi": [
-          "つと-める",
-          "つと-まる"
-        ]
-      },
-      "translation": "duty"
-    },
-    {
-      "kanji": "勢",
-      "radical": "力",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せい"
-        ],
-        "onyomi": [
-          "いきお-い"
-        ]
-      },
-      "translation": "power"
-    },
-    {
-      "kanji": "厚",
-      "radical": "厂",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう"
-        ],
-        "onyomi": [
-          "あつ-い"
-        ]
-      },
-      "translation": "thick"
-    },
-    {
-      "kanji": "句",
-      "radical": "口",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "く"
-        ],
-        "onyomi": []
-      },
-      "translation": "phrase"
-    },
-    {
-      "kanji": "可",
-      "radical": "口",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "か"
-        ],
-        "onyomi": []
-      },
-      "translation": "possible"
-    },
-    {
-      "kanji": "営",
-      "radical": "火",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えい"
-        ],
-        "onyomi": [
-          "いとな-む"
-        ]
-      },
-      "translation": "manage"
-    },
-    {
-      "kanji": "因",
-      "radical": "囗",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "いん"
-        ],
-        "onyomi": [
-          "よ-る"
-        ]
-      },
-      "translation": "cause"
-    },
-    {
-      "kanji": "団",
-      "radical": "囗",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "だん",
-          "（とん）"
-        ],
-        "onyomi": []
-      },
-      "translation": "group"
-    },
-    {
-      "kanji": "圧",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "あつ"
-        ],
-        "onyomi": []
-      },
-      "translation": "pressure"
-    },
-    {
-      "kanji": "在",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ざい"
-        ],
-        "onyomi": [
-          "あ-る"
-        ]
-      },
-      "translation": "exist"
-    },
-    {
-      "kanji": "均",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きん"
-        ],
-        "onyomi": []
-      },
-      "translation": "level"
-    },
-    {
-      "kanji": "基",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "き"
-        ],
-        "onyomi": [
-          "もと",
-          "もとい"
-        ]
-      },
-      "translation": "foundation"
-    },
-    {
-      "kanji": "報",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ほう"
-        ],
-        "onyomi": [
-          "むく-いる"
-        ]
-      },
-      "translation": "report"
-    },
-    {
-      "kanji": "境",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きょう",
-          "（けい）"
-        ],
-        "onyomi": [
-          "さかい"
-        ]
-      },
-      "translation": "boundary"
-    },
-    {
-      "kanji": "墓",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぼ"
-        ],
-        "onyomi": [
-          "はか"
-        ]
-      },
-      "translation": "grave"
-    },
-    {
-      "kanji": "増",
-      "radical": "土",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぞう"
-        ],
-        "onyomi": [
-          "ま-す",
-          "ふ-える",
-          "ふ-やす"
-        ]
-      },
-      "translation": "increase"
-    },
-    {
-      "kanji": "夢",
-      "radical": "夕",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "む"
-        ],
-        "onyomi": [
-          "ゆめ"
-        ]
-      },
-      "translation": "dream"
-    },
-    {
-      "kanji": "妻",
-      "radical": "女",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さい"
-        ],
-        "onyomi": [
-          "つま"
-        ]
-      },
-      "translation": "wife"
-    },
-    {
-      "kanji": "婦",
-      "radical": "女",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ふ"
-        ],
-        "onyomi": []
-      },
-      "translation": "lady"
-    },
-    {
-      "kanji": "容",
-      "radical": "宀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "よう"
-        ],
-        "onyomi": []
-      },
-      "translation": "contain"
-    },
-    {
-      "kanji": "寄",
-      "radical": "宀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "き"
-        ],
-        "onyomi": [
-          "よ-る",
-          "よ-せる"
-        ]
-      },
-      "translation": "approach"
-    },
-    {
-      "kanji": "富",
-      "radical": "宀",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ふ",
-          "（ふう）"
-        ],
-        "onyomi": [
-          "と-む",
-          "とみ"
-        ]
-      },
-      "translation": "rich"
-    },
-    {
-      "kanji": "導",
-      "radical": "寸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "どう"
-        ],
-        "onyomi": [
-          "みちび-く"
-        ]
-      },
-      "translation": "guide"
-    },
-    {
-      "kanji": "居",
-      "radical": "尸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きょ"
-        ],
-        "onyomi": [
-          "い-る"
-        ]
-      },
-      "translation": "reside"
-    },
-    {
-      "kanji": "属",
-      "radical": "尸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぞく"
-        ],
-        "onyomi": []
-      },
-      "translation": "belong"
-    },
-    {
-      "kanji": "布",
-      "radical": "巾",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ふ"
-        ],
-        "onyomi": [
-          "ぬの"
-        ]
-      },
-      "translation": "linen"
-    },
-    {
-      "kanji": "師",
-      "radical": "巾",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "し"
-        ],
-        "onyomi": []
-      },
-      "translation": "expert"
-    },
-    {
-      "kanji": "常",
-      "radical": "巾",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じょう"
-        ],
-        "onyomi": [
-          "つね",
-          "とこ"
-        ]
-      },
-      "translation": "normal"
-    },
-    {
-      "kanji": "幹",
-      "radical": "干",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かん"
-        ],
-        "onyomi": [
-          "みき"
-        ]
-      },
-      "translation": "tree-trunk"
-    },
-    {
-      "kanji": "序",
-      "radical": "广",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じょ"
-        ],
-        "onyomi": []
-      },
-      "translation": "preface"
-    },
-    {
-      "kanji": "弁",
-      "radical": "辛",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "べん"
-        ],
-        "onyomi": []
-      },
-      "translation": "valve"
-    },
-    {
-      "kanji": "張",
-      "radical": "弓",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ちょう"
-        ],
-        "onyomi": [
-          "は-る"
-        ]
-      },
-      "translation": "stretch"
-    },
-    {
-      "kanji": "往",
-      "radical": "彳",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "おう"
-        ],
-        "onyomi": []
-      },
-      "translation": "outward journey"
-    },
-    {
-      "kanji": "復",
-      "radical": "彳",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ふく"
-        ],
-        "onyomi": []
-      },
-      "translation": "again"
-    },
-    {
-      "kanji": "徳",
-      "radical": "彳",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "とく"
-        ],
-        "onyomi": []
-      },
-      "translation": "benevolence"
-    },
-    {
-      "kanji": "志",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "し"
-        ],
-        "onyomi": [
-          "こころざ-す",
-          "こころざし"
-        ]
-      },
-      "translation": "intention"
-    },
-    {
-      "kanji": "応",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "おう"
-        ],
-        "onyomi": [
-          "こた-える"
-        ]
-      },
-      "translation": "respond"
-    },
-    {
-      "kanji": "快",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かい"
-        ],
-        "onyomi": [
-          "こころよ-い"
-        ]
-      },
-      "translation": "cheerful"
-    },
-    {
-      "kanji": "性",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せい",
-          "しょう"
-        ],
-        "onyomi": []
-      },
-      "translation": "gender"
-    },
-    {
-      "kanji": "恩",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "おん"
-        ],
-        "onyomi": []
-      },
-      "translation": "grace"
-    },
-    {
-      "kanji": "情",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じょう",
-          "（せい）"
-        ],
-        "onyomi": [
-          "なさ-け"
-        ]
-      },
-      "translation": "feelings"
-    },
-    {
-      "kanji": "態",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "たい"
-        ],
-        "onyomi": []
-      },
-      "translation": "condition"
-    },
-    {
-      "kanji": "慣",
-      "radical": "心",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かん"
-        ],
-        "onyomi": [
-          "な-れる",
-          "な-らす"
-        ]
-      },
-      "translation": "accustomed"
-    },
-    {
-      "kanji": "承",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しょう"
-        ],
-        "onyomi": [
-          "うけたまわ-る"
-        ]
-      },
-      "translation": "acquiesce"
-    },
-    {
-      "kanji": "技",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぎ"
-        ],
-        "onyomi": [
-          "わざ"
-        ]
-      },
-      "translation": "skill"
-    },
-    {
-      "kanji": "招",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しょう"
-        ],
-        "onyomi": [
-          "まね-く"
-        ]
-      },
-      "translation": "beckon"
-    },
-    {
-      "kanji": "授",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じゅ"
-        ],
-        "onyomi": [
-          "さず-ける",
-          "さず-かる"
-        ]
-      },
-      "translation": "instruct"
-    },
-    {
-      "kanji": "採",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さい"
-        ],
-        "onyomi": [
-          "と-る"
-        ]
-      },
-      "translation": "pick"
-    },
-    {
-      "kanji": "接",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せつ"
-        ],
-        "onyomi": [
-          "つ-ぐ"
-        ]
-      },
-      "translation": "contact"
-    },
-    {
-      "kanji": "提",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "てい"
-        ],
-        "onyomi": [
-          "さ-げる"
-        ]
-      },
-      "translation": "present"
-    },
-    {
-      "kanji": "損",
-      "radical": "手",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そん"
-        ],
-        "onyomi": [
-          "そこ-なう",
-          "そこ-ねる"
-        ]
-      },
-      "translation": "loss"
-    },
-    {
-      "kanji": "支",
-      "radical": "支",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "し"
-        ],
-        "onyomi": [
-          "ささ-える"
-        ]
-      },
-      "translation": "branch"
-    },
-    {
-      "kanji": "政",
-      "radical": "攴",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せい",
-          "（しょう）"
-        ],
-        "onyomi": [
-          "まつりごと"
-        ]
-      },
-      "translation": "politics"
-    },
-    {
-      "kanji": "故",
-      "radical": "攴",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こ"
-        ],
-        "onyomi": [
-          "ゆえ"
-        ]
-      },
-      "translation": "circumstances"
-    },
-    {
-      "kanji": "敵",
-      "radical": "攴",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "てき"
-        ],
-        "onyomi": [
-          "かたき"
-        ]
-      },
-      "translation": "enemy"
-    },
-    {
-      "kanji": "断",
-      "radical": "斤",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "だん"
-        ],
-        "onyomi": [
-          "た-つ",
-          "ことわ-る"
-        ]
-      },
-      "translation": "cut off"
-    },
-    {
-      "kanji": "旧",
-      "radical": "臼",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きゅう"
-        ],
-        "onyomi": []
-      },
-      "translation": "old times"
-    },
-    {
-      "kanji": "易",
-      "radical": "日",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えき",
-          "い"
-        ],
-        "onyomi": [
-          "やさ-しい"
-        ]
-      },
-      "translation": "easy"
-    },
-    {
-      "kanji": "暴",
-      "radical": "日",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぼう",
-          "（ばく）"
-        ],
-        "onyomi": [
-          "あば-く",
-          "あば-れる"
-        ]
-      },
-      "translation": "outburst"
-    },
-    {
-      "kanji": "条",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じょう"
-        ],
-        "onyomi": []
-      },
-      "translation": "clause"
-    },
-    {
-      "kanji": "枝",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "し"
-        ],
-        "onyomi": [
-          "えだ"
-        ]
-      },
-      "translation": "branch"
-    },
-    {
-      "kanji": "査",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さ"
-        ],
-        "onyomi": []
-      },
-      "translation": "investigate"
-    },
-    {
-      "kanji": "格",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かく",
-          "（こう）"
-        ],
-        "onyomi": []
-      },
-      "translation": "status"
-    },
-    {
-      "kanji": "桜",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "おう"
-        ],
-        "onyomi": [
-          "さくら"
-        ]
-      },
-      "translation": "cherry tree"
-    },
-    {
-      "kanji": "検",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "けん"
-        ],
-        "onyomi": []
-      },
-      "translation": "examine"
-    },
-    {
-      "kanji": "構",
-      "radical": "木",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう"
-        ],
-        "onyomi": [
-          "かま-える",
-          "かま-う"
-        ]
-      },
-      "translation": "construct"
-    },
-    {
-      "kanji": "武",
-      "radical": "止",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぶ",
-          "む"
-        ],
-        "onyomi": []
-      },
-      "translation": "military"
-    },
-    {
-      "kanji": "比",
-      "radical": "比",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ひ"
-        ],
-        "onyomi": [
-          "くら-べる"
-        ]
-      },
-      "translation": "compare"
-    },
-    {
-      "kanji": "永",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えい"
-        ],
-        "onyomi": [
-          "なが-い"
-        ]
-      },
-      "translation": "eternity"
-    },
-    {
-      "kanji": "河",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "か"
-        ],
-        "onyomi": [
-          "かわ"
-        ]
-      },
-      "translation": "river"
-    },
-    {
-      "kanji": "液",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えき"
-        ],
-        "onyomi": []
-      },
-      "translation": "fluid"
-    },
-    {
-      "kanji": "混",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こん"
-        ],
-        "onyomi": [
-          "ま-じる",
-          "ま-ざる",
-          "ま-ぜる",
-          "こ-む"
-        ]
-      },
-      "translation": "mix"
-    },
-    {
-      "kanji": "減",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "げん"
-        ],
-        "onyomi": [
-          "へ-る",
-          "へ-らす"
-        ]
-      },
-      "translation": "decrease"
-    },
-    {
-      "kanji": "測",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そく"
-        ],
-        "onyomi": [
-          "はか-る"
-        ]
-      },
-      "translation": "fathom"
-    },
-    {
-      "kanji": "準",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じゅん"
-        ],
-        "onyomi": []
-      },
-      "translation": "standard"
-    },
-    {
-      "kanji": "演",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えん"
-        ],
-        "onyomi": []
-      },
-      "translation": "perform"
-    },
-    {
-      "kanji": "潔",
-      "radical": "水",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "けつ"
-        ],
-        "onyomi": [
-          "いさぎよ-い"
-        ]
-      },
-      "translation": "undefiled"
-    },
-    {
-      "kanji": "災",
-      "radical": "火",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さい"
-        ],
-        "onyomi": [
-          "わざわ-い"
-        ]
-      },
-      "translation": "disaster"
-    },
-    {
-      "kanji": "燃",
-      "radical": "火",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ねん"
-        ],
-        "onyomi": [
-          "も-える",
-          "も-やす",
-          "も-す"
-        ]
-      },
-      "translation": "burn"
-    },
-    {
-      "kanji": "版",
-      "radical": "片",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "はん"
-        ],
-        "onyomi": []
-      },
-      "translation": "printing block"
-    },
-    {
-      "kanji": "犯",
-      "radical": "犬",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "はん"
-        ],
-        "onyomi": [
-          "おか-す"
-        ]
-      },
-      "translation": "crime"
-    },
-    {
-      "kanji": "状",
-      "radical": "犬",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じょう"
-        ],
-        "onyomi": []
-      },
-      "translation": "form"
-    },
-    {
-      "kanji": "独",
-      "radical": "犬",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "どく"
-        ],
-        "onyomi": [
-          "ひと-り"
-        ]
-      },
-      "translation": "alone"
-    },
-    {
-      "kanji": "率",
-      "radical": "玄",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そつ",
-          "りつ"
-        ],
-        "onyomi": [
-          "ひき-いる"
-        ]
-      },
-      "translation": "rate"
-    },
-    {
-      "kanji": "現",
-      "radical": "玉",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "げん"
-        ],
-        "onyomi": [
-          "あらわ-れる",
-          "あらわ-す"
-        ]
-      },
-      "translation": "appear"
-    },
-    {
-      "kanji": "留",
-      "radical": "田",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "りゅう",
-          "（る）"
-        ],
-        "onyomi": [
-          "と-める",
-          "と-まる"
-        ]
-      },
-      "translation": "detain"
-    },
-    {
-      "kanji": "略",
-      "radical": "田",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "りゃく"
-        ],
-        "onyomi": []
-      },
-      "translation": "abbreviation"
-    },
-    {
-      "kanji": "益",
-      "radical": "皿",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えき",
-          "（やく）"
-        ],
-        "onyomi": []
-      },
-      "translation": "benefit"
-    },
-    {
-      "kanji": "眼",
-      "radical": "目",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "がん",
-          "（げん）"
-        ],
-        "onyomi": [
-          "まなこ"
-        ]
-      },
-      "translation": "eyeball"
-    },
-    {
-      "kanji": "破",
-      "radical": "石",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "は"
-        ],
-        "onyomi": [
-          "やぶ-る",
-          "やぶ-れる"
-        ]
-      },
-      "translation": "rend"
-    },
-    {
-      "kanji": "確",
-      "radical": "石",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かく"
-        ],
-        "onyomi": [
-          "たし-か",
-          "たし-かめる"
-        ]
-      },
-      "translation": "certain"
-    },
-    {
-      "kanji": "示",
-      "radical": "示",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じ",
-          "し"
-        ],
-        "onyomi": [
-          "しめ-す"
-        ]
-      },
-      "translation": "indicate"
-    },
-    {
-      "kanji": "祖",
-      "radical": "示",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そ"
-        ],
-        "onyomi": []
-      },
-      "translation": "ancestor"
-    },
-    {
-      "kanji": "禁",
-      "radical": "示",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きん"
-        ],
-        "onyomi": []
-      },
-      "translation": "prohibition"
-    },
-    {
-      "kanji": "移",
-      "radical": "禾",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "い"
-        ],
-        "onyomi": [
-          "うつ-る",
-          "うつ-す"
-        ]
-      },
-      "translation": "shift"
-    },
-    {
-      "kanji": "程",
-      "radical": "禾",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "てい"
-        ],
-        "onyomi": [
-          "ほど"
-        ]
-      },
-      "translation": "extent"
-    },
-    {
-      "kanji": "税",
-      "radical": "禾",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぜい"
-        ],
-        "onyomi": []
-      },
-      "translation": "tax"
-    },
-    {
-      "kanji": "築",
-      "radical": "竹",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ちく"
-        ],
-        "onyomi": [
-          "きず-く"
-        ]
-      },
-      "translation": "fabricate"
-    },
-    {
-      "kanji": "精",
-      "radical": "米",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せい",
-          "（しょう）"
-        ],
-        "onyomi": []
-      },
-      "translation": "refined"
-    },
-    {
-      "kanji": "素",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そ",
-          "す"
-        ],
-        "onyomi": []
-      },
-      "translation": "elementary"
-    },
-    {
-      "kanji": "経",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "けい",
-          "きょう"
-        ],
-        "onyomi": [
-          "へ-る"
-        ]
-      },
-      "translation": "manage"
-    },
-    {
-      "kanji": "統",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "とう"
-        ],
-        "onyomi": [
-          "す-べる"
-        ]
-      },
-      "translation": "unite"
-    },
-    {
-      "kanji": "絶",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぜつ"
-        ],
-        "onyomi": [
-          "た-える",
-          "た-やす",
-          "た-つ"
-        ]
-      },
-      "translation": "discontinue"
-    },
-    {
-      "kanji": "綿",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "めん"
-        ],
-        "onyomi": [
-          "わた"
-        ]
-      },
-      "translation": "cotton"
-    },
-    {
-      "kanji": "総",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "そう"
-        ],
-        "onyomi": []
-      },
-      "translation": "whole"
-    },
-    {
-      "kanji": "編",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "へん"
-        ],
-        "onyomi": [
-          "あ-む"
-        ]
-      },
-      "translation": "compile"
-    },
-    {
-      "kanji": "績",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せき"
-        ],
-        "onyomi": []
-      },
-      "translation": "exploits"
-    },
-    {
-      "kanji": "織",
-      "radical": "糸",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しょく",
-          "しき"
-        ],
-        "onyomi": [
-          "お-る"
-        ]
-      },
-      "translation": "weave"
-    },
-    {
-      "kanji": "罪",
-      "radical": "网",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ざい"
-        ],
-        "onyomi": [
-          "つみ"
-        ]
-      },
-      "translation": "guilt"
-    },
-    {
-      "kanji": "群",
-      "radical": "羊",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぐん"
-        ],
-        "onyomi": [
-          "む-れる",
-          "む-れ",
-          "（むら）"
-        ]
-      },
-      "translation": "flock"
-    },
-    {
-      "kanji": "義",
-      "radical": "羊",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぎ"
-        ],
-        "onyomi": []
-      },
-      "translation": "righteousness"
-    },
-    {
-      "kanji": "耕",
-      "radical": "耒",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう"
-        ],
-        "onyomi": [
-          "たがや-す"
-        ]
-      },
-      "translation": "till"
-    },
-    {
-      "kanji": "職",
-      "radical": "耳",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しょく"
-        ],
-        "onyomi": []
-      },
-      "translation": "employment"
-    },
-    {
-      "kanji": "肥",
-      "radical": "肉",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ひ"
-        ],
-        "onyomi": [
-          "こ-える",
-          "こえ",
-          "こ-やす",
-          "こ-やし"
-        ]
-      },
-      "translation": "fertilizer"
-    },
-    {
-      "kanji": "能",
-      "radical": "肉",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "のう"
-        ],
-        "onyomi": []
-      },
-      "translation": "ability"
-    },
-    {
-      "kanji": "興",
-      "radical": "臼",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう",
-          "きょう"
-        ],
-        "onyomi": [
-          "おこ-る",
-          "おこ-す"
-        ]
-      },
-      "translation": "entertain"
-    },
-    {
-      "kanji": "舌",
-      "radical": "舌",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぜつ"
-        ],
-        "onyomi": [
-          "した"
-        ]
-      },
-      "translation": "tongue"
-    },
-    {
-      "kanji": "舎",
-      "radical": "舌",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しゃ"
-        ],
-        "onyomi": []
-      },
-      "translation": "cottage"
-    },
-    {
-      "kanji": "術",
-      "radical": "行",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じゅつ"
-        ],
-        "onyomi": []
-      },
-      "translation": "art"
-    },
-    {
-      "kanji": "衛",
-      "radical": "行",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "えい"
-        ],
-        "onyomi": []
-      },
-      "translation": "defense"
-    },
-    {
-      "kanji": "製",
-      "radical": "衣",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せい"
-        ],
-        "onyomi": []
-      },
-      "translation": "manufacture"
-    },
-    {
-      "kanji": "複",
-      "radical": "衣",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ふく"
-        ],
-        "onyomi": []
-      },
-      "translation": "duplicate"
-    },
-    {
-      "kanji": "規",
-      "radical": "見",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "き"
-        ],
-        "onyomi": []
-      },
-      "translation": "rule"
-    },
-    {
-      "kanji": "解",
-      "radical": "角",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "かい",
-          "げ"
-        ],
-        "onyomi": [
-          "と-く",
-          "と-かす",
-          "と-ける"
-        ]
-      },
-      "translation": "untie"
-    },
-    {
-      "kanji": "設",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せつ"
-        ],
-        "onyomi": [
-          "もう-ける"
-        ]
-      },
-      "translation": "establish"
-    },
-    {
-      "kanji": "許",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "きょ"
-        ],
-        "onyomi": [
-          "ゆる-す"
-        ]
-      },
-      "translation": "permit"
-    },
-    {
-      "kanji": "証",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しょう"
-        ],
-        "onyomi": []
-      },
-      "translation": "evidence"
-    },
-    {
-      "kanji": "評",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ひょう"
-        ],
-        "onyomi": []
-      },
-      "translation": "evaluate"
-    },
-    {
-      "kanji": "講",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう"
-        ],
-        "onyomi": []
-      },
-      "translation": "lecture"
-    },
-    {
-      "kanji": "謝",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しゃ"
-        ],
-        "onyomi": [
-          "あやま-る"
-        ]
-      },
-      "translation": "apologize"
-    },
-    {
-      "kanji": "識",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しき"
-        ],
-        "onyomi": []
-      },
-      "translation": "discriminating"
-    },
-    {
-      "kanji": "護",
-      "radical": "言",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ご"
-        ],
-        "onyomi": []
-      },
-      "translation": "safeguard"
-    },
-    {
-      "kanji": "豊",
-      "radical": "豆",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ほう"
-        ],
-        "onyomi": [
-          "ゆた-か"
-        ]
-      },
-      "translation": "bountiful"
-    },
-    {
-      "kanji": "財",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ざい",
-          "（さい）"
-        ],
-        "onyomi": []
-      },
-      "translation": "wealth"
-    },
-    {
-      "kanji": "貧",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ひん",
-          "びん"
-        ],
-        "onyomi": [
-          "まず-しい"
-        ]
-      },
-      "translation": "poor"
-    },
-    {
-      "kanji": "責",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せき"
-        ],
-        "onyomi": [
-          "せ-める"
-        ]
-      },
-      "translation": "blame"
-    },
-    {
-      "kanji": "貸",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "たい"
-        ],
-        "onyomi": [
-          "か-す"
-        ]
-      },
-      "translation": "lend"
-    },
-    {
-      "kanji": "貿",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぼう"
-        ],
-        "onyomi": []
-      },
-      "translation": "trade"
-    },
-    {
-      "kanji": "賀",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "が"
-        ],
-        "onyomi": []
-      },
-      "translation": "congratulations"
-    },
-    {
-      "kanji": "資",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "し"
-        ],
-        "onyomi": []
-      },
-      "translation": "resources"
-    },
-    {
-      "kanji": "賛",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さん"
-        ],
-        "onyomi": []
-      },
-      "translation": "approve"
-    },
-    {
-      "kanji": "質",
-      "radical": "貝",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "しつ",
-          "しち",
-          "（ち）"
-        ],
-        "onyomi": []
-      },
-      "translation": "quality"
-    },
-    {
-      "kanji": "輸",
-      "radical": "車",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ゆ"
-        ],
-        "onyomi": []
-      },
-      "translation": "transport"
-    },
-    {
-      "kanji": "述",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "じゅつ"
-        ],
-        "onyomi": [
-          "の-べる"
-        ]
-      },
-      "translation": "mention"
-    },
-    {
-      "kanji": "迷",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "めい"
-        ],
-        "onyomi": [
-          "まよ-う"
-        ]
-      },
-      "translation": "astray"
-    },
-    {
-      "kanji": "退",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "たい"
-        ],
-        "onyomi": [
-          "しりぞ-く",
-          "しりぞ-ける"
-        ]
-      },
-      "translation": "retreat"
-    },
-    {
-      "kanji": "逆",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぎゃく"
-        ],
-        "onyomi": [
-          "さか",
-          "さか-らう"
-        ]
-      },
-      "translation": "inverted"
-    },
-    {
-      "kanji": "造",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぞう"
-        ],
-        "onyomi": [
-          "つく-る"
-        ]
-      },
-      "translation": "create"
-    },
-    {
-      "kanji": "過",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "か"
-        ],
-        "onyomi": [
-          "す-ぎる",
-          "す-ごす",
-          "あやま-つ",
-          "あやま-ち"
-        ]
-      },
-      "translation": "go beyond"
-    },
-    {
-      "kanji": "適",
-      "radical": "辵",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "てき"
-        ],
-        "onyomi": []
-      },
-      "translation": "suitable"
-    },
-    {
-      "kanji": "酸",
-      "radical": "酉",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さん"
-        ],
-        "onyomi": [
-          "す-い"
-        ]
-      },
-      "translation": "acid"
-    },
-    {
-      "kanji": "鉱",
-      "radical": "金",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "こう"
-        ],
-        "onyomi": []
-      },
-      "translation": "mineral"
-    },
-    {
-      "kanji": "銅",
-      "radical": "金",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "どう"
-        ],
-        "onyomi": []
-      },
-      "translation": "copper"
-    },
-    {
-      "kanji": "銭",
-      "radical": "金",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "せん"
-        ],
-        "onyomi": [
-          "ぜに"
-        ]
-      },
-      "translation": "coin"
-    },
-    {
-      "kanji": "防",
-      "radical": "阜",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ぼう"
-        ],
-        "onyomi": [
-          "ふせ-ぐ"
-        ]
-      },
-      "translation": "prevent"
-    },
-    {
-      "kanji": "限",
-      "radical": "阜",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "げん"
-        ],
-        "onyomi": [
-          "かぎ-る"
-        ]
-      },
-      "translation": "limit"
-    },
-    {
-      "kanji": "険",
-      "radical": "阜",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "けん"
-        ],
-        "onyomi": [
-          "けわ-しい"
-        ]
-      },
-      "translation": "precipitous"
-    },
-    {
-      "kanji": "際",
-      "radical": "阜",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "さい"
-        ],
-        "onyomi": [
-          "きわ"
-        ]
-      },
-      "translation": "occasion"
-    },
-    {
-      "kanji": "雑",
-      "radical": "隹",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ざつ",
-          "ぞう"
-        ],
-        "onyomi": []
-      },
-      "translation": "miscellaneous"
-    },
-    {
-      "kanji": "非",
-      "radical": "非",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "ひ"
-        ],
-        "onyomi": []
-      },
-      "translation": "negative"
-    },
-    {
-      "kanji": "預",
-      "radical": "頁",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "よ"
-        ],
-        "onyomi": [
-          "あず-ける",
-          "あず-かる"
-        ]
-      },
-      "translation": "deposit"
-    },
-    {
-      "kanji": "領",
-      "radical": "頁",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "りょう"
-        ],
-        "onyomi": []
-      },
-      "translation": "territory"
-    },
-    {
-      "kanji": "額",
-      "radical": "頁",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "がく"
-        ],
-        "onyomi": [
-          "ひたい"
-        ]
-      },
-      "translation": "amount"
-    },
-    {
-      "kanji": "飼",
-      "radical": "食",
-      "grade": "5",
-      "furigana": {
-        "kunyomi": [
-          "し"
-        ],
-        "onyomi": [
-          "か-う"
-        ]
-      },
-      "translation": "domesticate"
-    },
+    }
+    ],
+    "GradeFive" : [
+    
+      {
+        "kanji": "久",
+        "radical": "丿",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きゅう",
+            "（く）"
+          ],
+          "onyomi": [
+            "ひさ-しい"
+          ]
+        },
+        "translation": "long time"
+      },
+      {
+        "kanji": "仏",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぶつ"
+          ],
+          "onyomi": [
+            "ほとけ"
+          ]
+        },
+        "translation": "Buddha"
+      },
+      {
+        "kanji": "仮",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "か",
+            "（け）"
+          ],
+          "onyomi": [
+            "かり"
+          ]
+        },
+        "translation": "temporary"
+      },
+      {
+        "kanji": "件",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "けん"
+          ],
+          "onyomi": []
+        },
+        "translation": "affair"
+      },
+      {
+        "kanji": "任",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "にん"
+          ],
+          "onyomi": [
+            "まか-せる",
+            "まか-す"
+          ]
+        },
+        "translation": "responsibility"
+      },
+      {
+        "kanji": "似",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じ"
+          ],
+          "onyomi": [
+            "に-る"
+          ]
+        },
+        "translation": "becoming"
+      },
+      {
+        "kanji": "余",
+        "radical": "食",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "よ"
+          ],
+          "onyomi": [
+            "あま-る",
+            "あま-す"
+          ]
+        },
+        "translation": "leave over"
+      },
+      {
+        "kanji": "価",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "か"
+          ],
+          "onyomi": [
+            "あたい"
+          ]
+        },
+        "translation": "value"
+      },
+      {
+        "kanji": "保",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ほ"
+          ],
+          "onyomi": [
+            "たも-つ"
+          ]
+        },
+        "translation": "preserve"
+      },
+      {
+        "kanji": "修",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しゅう",
+            "（しゅ）"
+          ],
+          "onyomi": [
+            "おさ-める",
+            "おさ-まる"
+          ]
+        },
+        "translation": "discipline"
+      },
+      {
+        "kanji": "俵",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ひょう"
+          ],
+          "onyomi": [
+            "たわら"
+          ]
+        },
+        "translation": "bag"
+      },
+      {
+        "kanji": "個",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こ"
+          ],
+          "onyomi": []
+        },
+        "translation": "individual"
+      },
+      {
+        "kanji": "備",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "び"
+          ],
+          "onyomi": [
+            "そな-える",
+            "そな-わる"
+          ]
+        },
+        "translation": "provide"
+      },
+      {
+        "kanji": "像",
+        "radical": "人",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぞう"
+          ],
+          "onyomi": []
+        },
+        "translation": "statue"
+      },
+      {
+        "kanji": "再",
+        "radical": "冂",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さい",
+            "（さ）"
+          ],
+          "onyomi": [
+            "ふたた-び"
+          ]
+        },
+        "translation": "again"
+      },
+      {
+        "kanji": "刊",
+        "radical": "刀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かん"
+          ],
+          "onyomi": []
+        },
+        "translation": "publish"
+      },
+      {
+        "kanji": "判",
+        "radical": "刀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "はん",
+            "ばん"
+          ],
+          "onyomi": []
+        },
+        "translation": "judge"
+      },
+      {
+        "kanji": "制",
+        "radical": "刀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せい"
+          ],
+          "onyomi": []
+        },
+        "translation": "control"
+      },
+      {
+        "kanji": "券",
+        "radical": "刀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "けん"
+          ],
+          "onyomi": []
+        },
+        "translation": "ticket"
+      },
+      {
+        "kanji": "則",
+        "radical": "刀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そく"
+          ],
+          "onyomi": []
+        },
+        "translation": "rule"
+      },
+      {
+        "kanji": "効",
+        "radical": "力",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう"
+          ],
+          "onyomi": [
+            "き-く"
+          ]
+        },
+        "translation": "effect"
+      },
+      {
+        "kanji": "務",
+        "radical": "力",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "む"
+          ],
+          "onyomi": [
+            "つと-める",
+            "つと-まる"
+          ]
+        },
+        "translation": "duty"
+      },
+      {
+        "kanji": "勢",
+        "radical": "力",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せい"
+          ],
+          "onyomi": [
+            "いきお-い"
+          ]
+        },
+        "translation": "power"
+      },
+      {
+        "kanji": "厚",
+        "radical": "厂",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう"
+          ],
+          "onyomi": [
+            "あつ-い"
+          ]
+        },
+        "translation": "thick"
+      },
+      {
+        "kanji": "句",
+        "radical": "口",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "く"
+          ],
+          "onyomi": []
+        },
+        "translation": "phrase"
+      },
+      {
+        "kanji": "可",
+        "radical": "口",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "か"
+          ],
+          "onyomi": []
+        },
+        "translation": "possible"
+      },
+      {
+        "kanji": "営",
+        "radical": "火",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えい"
+          ],
+          "onyomi": [
+            "いとな-む"
+          ]
+        },
+        "translation": "manage"
+      },
+      {
+        "kanji": "因",
+        "radical": "囗",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "いん"
+          ],
+          "onyomi": [
+            "よ-る"
+          ]
+        },
+        "translation": "cause"
+      },
+      {
+        "kanji": "団",
+        "radical": "囗",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "だん",
+            "（とん）"
+          ],
+          "onyomi": []
+        },
+        "translation": "group"
+      },
+      {
+        "kanji": "圧",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "あつ"
+          ],
+          "onyomi": []
+        },
+        "translation": "pressure"
+      },
+      {
+        "kanji": "在",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ざい"
+          ],
+          "onyomi": [
+            "あ-る"
+          ]
+        },
+        "translation": "exist"
+      },
+      {
+        "kanji": "均",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きん"
+          ],
+          "onyomi": []
+        },
+        "translation": "level"
+      },
+      {
+        "kanji": "基",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "き"
+          ],
+          "onyomi": [
+            "もと",
+            "もとい"
+          ]
+        },
+        "translation": "foundation"
+      },
+      {
+        "kanji": "報",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ほう"
+          ],
+          "onyomi": [
+            "むく-いる"
+          ]
+        },
+        "translation": "report"
+      },
+      {
+        "kanji": "境",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きょう",
+            "（けい）"
+          ],
+          "onyomi": [
+            "さかい"
+          ]
+        },
+        "translation": "boundary"
+      },
+      {
+        "kanji": "墓",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぼ"
+          ],
+          "onyomi": [
+            "はか"
+          ]
+        },
+        "translation": "grave"
+      },
+      {
+        "kanji": "増",
+        "radical": "土",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぞう"
+          ],
+          "onyomi": [
+            "ま-す",
+            "ふ-える",
+            "ふ-やす"
+          ]
+        },
+        "translation": "increase"
+      },
+      {
+        "kanji": "夢",
+        "radical": "夕",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "む"
+          ],
+          "onyomi": [
+            "ゆめ"
+          ]
+        },
+        "translation": "dream"
+      },
+      {
+        "kanji": "妻",
+        "radical": "女",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さい"
+          ],
+          "onyomi": [
+            "つま"
+          ]
+        },
+        "translation": "wife"
+      },
+      {
+        "kanji": "婦",
+        "radical": "女",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ふ"
+          ],
+          "onyomi": []
+        },
+        "translation": "lady"
+      },
+      {
+        "kanji": "容",
+        "radical": "宀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "よう"
+          ],
+          "onyomi": []
+        },
+        "translation": "contain"
+      },
+      {
+        "kanji": "寄",
+        "radical": "宀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "き"
+          ],
+          "onyomi": [
+            "よ-る",
+            "よ-せる"
+          ]
+        },
+        "translation": "approach"
+      },
+      {
+        "kanji": "富",
+        "radical": "宀",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ふ",
+            "（ふう）"
+          ],
+          "onyomi": [
+            "と-む",
+            "とみ"
+          ]
+        },
+        "translation": "rich"
+      },
+      {
+        "kanji": "導",
+        "radical": "寸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "どう"
+          ],
+          "onyomi": [
+            "みちび-く"
+          ]
+        },
+        "translation": "guide"
+      },
+      {
+        "kanji": "居",
+        "radical": "尸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きょ"
+          ],
+          "onyomi": [
+            "い-る"
+          ]
+        },
+        "translation": "reside"
+      },
+      {
+        "kanji": "属",
+        "radical": "尸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぞく"
+          ],
+          "onyomi": []
+        },
+        "translation": "belong"
+      },
+      {
+        "kanji": "布",
+        "radical": "巾",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ふ"
+          ],
+          "onyomi": [
+            "ぬの"
+          ]
+        },
+        "translation": "linen"
+      },
+      {
+        "kanji": "師",
+        "radical": "巾",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "し"
+          ],
+          "onyomi": []
+        },
+        "translation": "expert"
+      },
+      {
+        "kanji": "常",
+        "radical": "巾",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じょう"
+          ],
+          "onyomi": [
+            "つね",
+            "とこ"
+          ]
+        },
+        "translation": "normal"
+      },
+      {
+        "kanji": "幹",
+        "radical": "干",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かん"
+          ],
+          "onyomi": [
+            "みき"
+          ]
+        },
+        "translation": "tree-trunk"
+      },
+      {
+        "kanji": "序",
+        "radical": "广",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じょ"
+          ],
+          "onyomi": []
+        },
+        "translation": "preface"
+      },
+      {
+        "kanji": "弁",
+        "radical": "辛",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "べん"
+          ],
+          "onyomi": []
+        },
+        "translation": "valve"
+      },
+      {
+        "kanji": "張",
+        "radical": "弓",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ちょう"
+          ],
+          "onyomi": [
+            "は-る"
+          ]
+        },
+        "translation": "stretch"
+      },
+      {
+        "kanji": "往",
+        "radical": "彳",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "おう"
+          ],
+          "onyomi": []
+        },
+        "translation": "outward journey"
+      },
+      {
+        "kanji": "復",
+        "radical": "彳",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ふく"
+          ],
+          "onyomi": []
+        },
+        "translation": "again"
+      },
+      {
+        "kanji": "徳",
+        "radical": "彳",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "とく"
+          ],
+          "onyomi": []
+        },
+        "translation": "benevolence"
+      },
+      {
+        "kanji": "志",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "し"
+          ],
+          "onyomi": [
+            "こころざ-す",
+            "こころざし"
+          ]
+        },
+        "translation": "intention"
+      },
+      {
+        "kanji": "応",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "おう"
+          ],
+          "onyomi": [
+            "こた-える"
+          ]
+        },
+        "translation": "respond"
+      },
+      {
+        "kanji": "快",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かい"
+          ],
+          "onyomi": [
+            "こころよ-い"
+          ]
+        },
+        "translation": "cheerful"
+      },
+      {
+        "kanji": "性",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せい",
+            "しょう"
+          ],
+          "onyomi": []
+        },
+        "translation": "gender"
+      },
+      {
+        "kanji": "恩",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "おん"
+          ],
+          "onyomi": []
+        },
+        "translation": "grace"
+      },
+      {
+        "kanji": "情",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じょう",
+            "（せい）"
+          ],
+          "onyomi": [
+            "なさ-け"
+          ]
+        },
+        "translation": "feelings"
+      },
+      {
+        "kanji": "態",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "たい"
+          ],
+          "onyomi": []
+        },
+        "translation": "condition"
+      },
+      {
+        "kanji": "慣",
+        "radical": "心",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かん"
+          ],
+          "onyomi": [
+            "な-れる",
+            "な-らす"
+          ]
+        },
+        "translation": "accustomed"
+      },
+      {
+        "kanji": "承",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しょう"
+          ],
+          "onyomi": [
+            "うけたまわ-る"
+          ]
+        },
+        "translation": "acquiesce"
+      },
+      {
+        "kanji": "技",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぎ"
+          ],
+          "onyomi": [
+            "わざ"
+          ]
+        },
+        "translation": "skill"
+      },
+      {
+        "kanji": "招",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しょう"
+          ],
+          "onyomi": [
+            "まね-く"
+          ]
+        },
+        "translation": "beckon"
+      },
+      {
+        "kanji": "授",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じゅ"
+          ],
+          "onyomi": [
+            "さず-ける",
+            "さず-かる"
+          ]
+        },
+        "translation": "instruct"
+      },
+      {
+        "kanji": "採",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さい"
+          ],
+          "onyomi": [
+            "と-る"
+          ]
+        },
+        "translation": "pick"
+      },
+      {
+        "kanji": "接",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せつ"
+          ],
+          "onyomi": [
+            "つ-ぐ"
+          ]
+        },
+        "translation": "contact"
+      },
+      {
+        "kanji": "提",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "てい"
+          ],
+          "onyomi": [
+            "さ-げる"
+          ]
+        },
+        "translation": "present"
+      },
+      {
+        "kanji": "損",
+        "radical": "手",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そん"
+          ],
+          "onyomi": [
+            "そこ-なう",
+            "そこ-ねる"
+          ]
+        },
+        "translation": "loss"
+      },
+      {
+        "kanji": "支",
+        "radical": "支",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "し"
+          ],
+          "onyomi": [
+            "ささ-える"
+          ]
+        },
+        "translation": "branch"
+      },
+      {
+        "kanji": "政",
+        "radical": "攴",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せい",
+            "（しょう）"
+          ],
+          "onyomi": [
+            "まつりごと"
+          ]
+        },
+        "translation": "politics"
+      },
+      {
+        "kanji": "故",
+        "radical": "攴",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こ"
+          ],
+          "onyomi": [
+            "ゆえ"
+          ]
+        },
+        "translation": "circumstances"
+      },
+      {
+        "kanji": "敵",
+        "radical": "攴",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "てき"
+          ],
+          "onyomi": [
+            "かたき"
+          ]
+        },
+        "translation": "enemy"
+      },
+      {
+        "kanji": "断",
+        "radical": "斤",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "だん"
+          ],
+          "onyomi": [
+            "た-つ",
+            "ことわ-る"
+          ]
+        },
+        "translation": "cut off"
+      },
+      {
+        "kanji": "旧",
+        "radical": "臼",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きゅう"
+          ],
+          "onyomi": []
+        },
+        "translation": "old times"
+      },
+      {
+        "kanji": "易",
+        "radical": "日",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えき",
+            "い"
+          ],
+          "onyomi": [
+            "やさ-しい"
+          ]
+        },
+        "translation": "easy"
+      },
+      {
+        "kanji": "暴",
+        "radical": "日",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぼう",
+            "（ばく）"
+          ],
+          "onyomi": [
+            "あば-く",
+            "あば-れる"
+          ]
+        },
+        "translation": "outburst"
+      },
+      {
+        "kanji": "条",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じょう"
+          ],
+          "onyomi": []
+        },
+        "translation": "clause"
+      },
+      {
+        "kanji": "枝",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "し"
+          ],
+          "onyomi": [
+            "えだ"
+          ]
+        },
+        "translation": "branch"
+      },
+      {
+        "kanji": "査",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さ"
+          ],
+          "onyomi": []
+        },
+        "translation": "investigate"
+      },
+      {
+        "kanji": "格",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かく",
+            "（こう）"
+          ],
+          "onyomi": []
+        },
+        "translation": "status"
+      },
+      {
+        "kanji": "桜",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "おう"
+          ],
+          "onyomi": [
+            "さくら"
+          ]
+        },
+        "translation": "cherry tree"
+      },
+      {
+        "kanji": "検",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "けん"
+          ],
+          "onyomi": []
+        },
+        "translation": "examine"
+      },
+      {
+        "kanji": "構",
+        "radical": "木",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう"
+          ],
+          "onyomi": [
+            "かま-える",
+            "かま-う"
+          ]
+        },
+        "translation": "construct"
+      },
+      {
+        "kanji": "武",
+        "radical": "止",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぶ",
+            "む"
+          ],
+          "onyomi": []
+        },
+        "translation": "military"
+      },
+      {
+        "kanji": "比",
+        "radical": "比",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ひ"
+          ],
+          "onyomi": [
+            "くら-べる"
+          ]
+        },
+        "translation": "compare"
+      },
+      {
+        "kanji": "永",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えい"
+          ],
+          "onyomi": [
+            "なが-い"
+          ]
+        },
+        "translation": "eternity"
+      },
+      {
+        "kanji": "河",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "か"
+          ],
+          "onyomi": [
+            "かわ"
+          ]
+        },
+        "translation": "river"
+      },
+      {
+        "kanji": "液",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えき"
+          ],
+          "onyomi": []
+        },
+        "translation": "fluid"
+      },
+      {
+        "kanji": "混",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こん"
+          ],
+          "onyomi": [
+            "ま-じる",
+            "ま-ざる",
+            "ま-ぜる",
+            "こ-む"
+          ]
+        },
+        "translation": "mix"
+      },
+      {
+        "kanji": "減",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "げん"
+          ],
+          "onyomi": [
+            "へ-る",
+            "へ-らす"
+          ]
+        },
+        "translation": "decrease"
+      },
+      {
+        "kanji": "測",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そく"
+          ],
+          "onyomi": [
+            "はか-る"
+          ]
+        },
+        "translation": "fathom"
+      },
+      {
+        "kanji": "準",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じゅん"
+          ],
+          "onyomi": []
+        },
+        "translation": "standard"
+      },
+      {
+        "kanji": "演",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えん"
+          ],
+          "onyomi": []
+        },
+        "translation": "perform"
+      },
+      {
+        "kanji": "潔",
+        "radical": "水",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "けつ"
+          ],
+          "onyomi": [
+            "いさぎよ-い"
+          ]
+        },
+        "translation": "undefiled"
+      },
+      {
+        "kanji": "災",
+        "radical": "火",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さい"
+          ],
+          "onyomi": [
+            "わざわ-い"
+          ]
+        },
+        "translation": "disaster"
+      },
+      {
+        "kanji": "燃",
+        "radical": "火",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ねん"
+          ],
+          "onyomi": [
+            "も-える",
+            "も-やす",
+            "も-す"
+          ]
+        },
+        "translation": "burn"
+      },
+      {
+        "kanji": "版",
+        "radical": "片",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "はん"
+          ],
+          "onyomi": []
+        },
+        "translation": "printing block"
+      },
+      {
+        "kanji": "犯",
+        "radical": "犬",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "はん"
+          ],
+          "onyomi": [
+            "おか-す"
+          ]
+        },
+        "translation": "crime"
+      },
+      {
+        "kanji": "状",
+        "radical": "犬",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じょう"
+          ],
+          "onyomi": []
+        },
+        "translation": "form"
+      },
+      {
+        "kanji": "独",
+        "radical": "犬",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "どく"
+          ],
+          "onyomi": [
+            "ひと-り"
+          ]
+        },
+        "translation": "alone"
+      },
+      {
+        "kanji": "率",
+        "radical": "玄",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そつ",
+            "りつ"
+          ],
+          "onyomi": [
+            "ひき-いる"
+          ]
+        },
+        "translation": "rate"
+      },
+      {
+        "kanji": "現",
+        "radical": "玉",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "げん"
+          ],
+          "onyomi": [
+            "あらわ-れる",
+            "あらわ-す"
+          ]
+        },
+        "translation": "appear"
+      },
+      {
+        "kanji": "留",
+        "radical": "田",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "りゅう",
+            "（る）"
+          ],
+          "onyomi": [
+            "と-める",
+            "と-まる"
+          ]
+        },
+        "translation": "detain"
+      },
+      {
+        "kanji": "略",
+        "radical": "田",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "りゃく"
+          ],
+          "onyomi": []
+        },
+        "translation": "abbreviation"
+      },
+      {
+        "kanji": "益",
+        "radical": "皿",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えき",
+            "（やく）"
+          ],
+          "onyomi": []
+        },
+        "translation": "benefit"
+      },
+      {
+        "kanji": "眼",
+        "radical": "目",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "がん",
+            "（げん）"
+          ],
+          "onyomi": [
+            "まなこ"
+          ]
+        },
+        "translation": "eyeball"
+      },
+      {
+        "kanji": "破",
+        "radical": "石",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "は"
+          ],
+          "onyomi": [
+            "やぶ-る",
+            "やぶ-れる"
+          ]
+        },
+        "translation": "rend"
+      },
+      {
+        "kanji": "確",
+        "radical": "石",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かく"
+          ],
+          "onyomi": [
+            "たし-か",
+            "たし-かめる"
+          ]
+        },
+        "translation": "certain"
+      },
+      {
+        "kanji": "示",
+        "radical": "示",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じ",
+            "し"
+          ],
+          "onyomi": [
+            "しめ-す"
+          ]
+        },
+        "translation": "indicate"
+      },
+      {
+        "kanji": "祖",
+        "radical": "示",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そ"
+          ],
+          "onyomi": []
+        },
+        "translation": "ancestor"
+      },
+      {
+        "kanji": "禁",
+        "radical": "示",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きん"
+          ],
+          "onyomi": []
+        },
+        "translation": "prohibition"
+      },
+      {
+        "kanji": "移",
+        "radical": "禾",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "い"
+          ],
+          "onyomi": [
+            "うつ-る",
+            "うつ-す"
+          ]
+        },
+        "translation": "shift"
+      },
+      {
+        "kanji": "程",
+        "radical": "禾",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "てい"
+          ],
+          "onyomi": [
+            "ほど"
+          ]
+        },
+        "translation": "extent"
+      },
+      {
+        "kanji": "税",
+        "radical": "禾",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぜい"
+          ],
+          "onyomi": []
+        },
+        "translation": "tax"
+      },
+      {
+        "kanji": "築",
+        "radical": "竹",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ちく"
+          ],
+          "onyomi": [
+            "きず-く"
+          ]
+        },
+        "translation": "fabricate"
+      },
+      {
+        "kanji": "精",
+        "radical": "米",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せい",
+            "（しょう）"
+          ],
+          "onyomi": []
+        },
+        "translation": "refined"
+      },
+      {
+        "kanji": "素",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そ",
+            "す"
+          ],
+          "onyomi": []
+        },
+        "translation": "elementary"
+      },
+      {
+        "kanji": "経",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "けい",
+            "きょう"
+          ],
+          "onyomi": [
+            "へ-る"
+          ]
+        },
+        "translation": "manage"
+      },
+      {
+        "kanji": "統",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "とう"
+          ],
+          "onyomi": [
+            "す-べる"
+          ]
+        },
+        "translation": "unite"
+      },
+      {
+        "kanji": "絶",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぜつ"
+          ],
+          "onyomi": [
+            "た-える",
+            "た-やす",
+            "た-つ"
+          ]
+        },
+        "translation": "discontinue"
+      },
+      {
+        "kanji": "綿",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "めん"
+          ],
+          "onyomi": [
+            "わた"
+          ]
+        },
+        "translation": "cotton"
+      },
+      {
+        "kanji": "総",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "そう"
+          ],
+          "onyomi": []
+        },
+        "translation": "whole"
+      },
+      {
+        "kanji": "編",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "へん"
+          ],
+          "onyomi": [
+            "あ-む"
+          ]
+        },
+        "translation": "compile"
+      },
+      {
+        "kanji": "績",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せき"
+          ],
+          "onyomi": []
+        },
+        "translation": "exploits"
+      },
+      {
+        "kanji": "織",
+        "radical": "糸",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しょく",
+            "しき"
+          ],
+          "onyomi": [
+            "お-る"
+          ]
+        },
+        "translation": "weave"
+      },
+      {
+        "kanji": "罪",
+        "radical": "网",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ざい"
+          ],
+          "onyomi": [
+            "つみ"
+          ]
+        },
+        "translation": "guilt"
+      },
+      {
+        "kanji": "群",
+        "radical": "羊",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぐん"
+          ],
+          "onyomi": [
+            "む-れる",
+            "む-れ",
+            "（むら）"
+          ]
+        },
+        "translation": "flock"
+      },
+      {
+        "kanji": "義",
+        "radical": "羊",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぎ"
+          ],
+          "onyomi": []
+        },
+        "translation": "righteousness"
+      },
+      {
+        "kanji": "耕",
+        "radical": "耒",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう"
+          ],
+          "onyomi": [
+            "たがや-す"
+          ]
+        },
+        "translation": "till"
+      },
+      {
+        "kanji": "職",
+        "radical": "耳",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しょく"
+          ],
+          "onyomi": []
+        },
+        "translation": "employment"
+      },
+      {
+        "kanji": "肥",
+        "radical": "肉",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ひ"
+          ],
+          "onyomi": [
+            "こ-える",
+            "こえ",
+            "こ-やす",
+            "こ-やし"
+          ]
+        },
+        "translation": "fertilizer"
+      },
+      {
+        "kanji": "能",
+        "radical": "肉",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "のう"
+          ],
+          "onyomi": []
+        },
+        "translation": "ability"
+      },
+      {
+        "kanji": "興",
+        "radical": "臼",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう",
+            "きょう"
+          ],
+          "onyomi": [
+            "おこ-る",
+            "おこ-す"
+          ]
+        },
+        "translation": "entertain"
+      },
+      {
+        "kanji": "舌",
+        "radical": "舌",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぜつ"
+          ],
+          "onyomi": [
+            "した"
+          ]
+        },
+        "translation": "tongue"
+      },
+      {
+        "kanji": "舎",
+        "radical": "舌",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しゃ"
+          ],
+          "onyomi": []
+        },
+        "translation": "cottage"
+      },
+      {
+        "kanji": "術",
+        "radical": "行",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じゅつ"
+          ],
+          "onyomi": []
+        },
+        "translation": "art"
+      },
+      {
+        "kanji": "衛",
+        "radical": "行",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "えい"
+          ],
+          "onyomi": []
+        },
+        "translation": "defense"
+      },
+      {
+        "kanji": "製",
+        "radical": "衣",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せい"
+          ],
+          "onyomi": []
+        },
+        "translation": "manufacture"
+      },
+      {
+        "kanji": "複",
+        "radical": "衣",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ふく"
+          ],
+          "onyomi": []
+        },
+        "translation": "duplicate"
+      },
+      {
+        "kanji": "規",
+        "radical": "見",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "き"
+          ],
+          "onyomi": []
+        },
+        "translation": "rule"
+      },
+      {
+        "kanji": "解",
+        "radical": "角",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "かい",
+            "げ"
+          ],
+          "onyomi": [
+            "と-く",
+            "と-かす",
+            "と-ける"
+          ]
+        },
+        "translation": "untie"
+      },
+      {
+        "kanji": "設",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せつ"
+          ],
+          "onyomi": [
+            "もう-ける"
+          ]
+        },
+        "translation": "establish"
+      },
+      {
+        "kanji": "許",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "きょ"
+          ],
+          "onyomi": [
+            "ゆる-す"
+          ]
+        },
+        "translation": "permit"
+      },
+      {
+        "kanji": "証",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しょう"
+          ],
+          "onyomi": []
+        },
+        "translation": "evidence"
+      },
+      {
+        "kanji": "評",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ひょう"
+          ],
+          "onyomi": []
+        },
+        "translation": "evaluate"
+      },
+      {
+        "kanji": "講",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう"
+          ],
+          "onyomi": []
+        },
+        "translation": "lecture"
+      },
+      {
+        "kanji": "謝",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しゃ"
+          ],
+          "onyomi": [
+            "あやま-る"
+          ]
+        },
+        "translation": "apologize"
+      },
+      {
+        "kanji": "識",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しき"
+          ],
+          "onyomi": []
+        },
+        "translation": "discriminating"
+      },
+      {
+        "kanji": "護",
+        "radical": "言",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ご"
+          ],
+          "onyomi": []
+        },
+        "translation": "safeguard"
+      },
+      {
+        "kanji": "豊",
+        "radical": "豆",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ほう"
+          ],
+          "onyomi": [
+            "ゆた-か"
+          ]
+        },
+        "translation": "bountiful"
+      },
+      {
+        "kanji": "財",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ざい",
+            "（さい）"
+          ],
+          "onyomi": []
+        },
+        "translation": "wealth"
+      },
+      {
+        "kanji": "貧",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ひん",
+            "びん"
+          ],
+          "onyomi": [
+            "まず-しい"
+          ]
+        },
+        "translation": "poor"
+      },
+      {
+        "kanji": "責",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せき"
+          ],
+          "onyomi": [
+            "せ-める"
+          ]
+        },
+        "translation": "blame"
+      },
+      {
+        "kanji": "貸",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "たい"
+          ],
+          "onyomi": [
+            "か-す"
+          ]
+        },
+        "translation": "lend"
+      },
+      {
+        "kanji": "貿",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぼう"
+          ],
+          "onyomi": []
+        },
+        "translation": "trade"
+      },
+      {
+        "kanji": "賀",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "が"
+          ],
+          "onyomi": []
+        },
+        "translation": "congratulations"
+      },
+      {
+        "kanji": "資",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "し"
+          ],
+          "onyomi": []
+        },
+        "translation": "resources"
+      },
+      {
+        "kanji": "賛",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さん"
+          ],
+          "onyomi": []
+        },
+        "translation": "approve"
+      },
+      {
+        "kanji": "質",
+        "radical": "貝",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "しつ",
+            "しち",
+            "（ち）"
+          ],
+          "onyomi": []
+        },
+        "translation": "quality"
+      },
+      {
+        "kanji": "輸",
+        "radical": "車",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ゆ"
+          ],
+          "onyomi": []
+        },
+        "translation": "transport"
+      },
+      {
+        "kanji": "述",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "じゅつ"
+          ],
+          "onyomi": [
+            "の-べる"
+          ]
+        },
+        "translation": "mention"
+      },
+      {
+        "kanji": "迷",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "めい"
+          ],
+          "onyomi": [
+            "まよ-う"
+          ]
+        },
+        "translation": "astray"
+      },
+      {
+        "kanji": "退",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "たい"
+          ],
+          "onyomi": [
+            "しりぞ-く",
+            "しりぞ-ける"
+          ]
+        },
+        "translation": "retreat"
+      },
+      {
+        "kanji": "逆",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぎゃく"
+          ],
+          "onyomi": [
+            "さか",
+            "さか-らう"
+          ]
+        },
+        "translation": "inverted"
+      },
+      {
+        "kanji": "造",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぞう"
+          ],
+          "onyomi": [
+            "つく-る"
+          ]
+        },
+        "translation": "create"
+      },
+      {
+        "kanji": "過",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "か"
+          ],
+          "onyomi": [
+            "す-ぎる",
+            "す-ごす",
+            "あやま-つ",
+            "あやま-ち"
+          ]
+        },
+        "translation": "go beyond"
+      },
+      {
+        "kanji": "適",
+        "radical": "辵",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "てき"
+          ],
+          "onyomi": []
+        },
+        "translation": "suitable"
+      },
+      {
+        "kanji": "酸",
+        "radical": "酉",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さん"
+          ],
+          "onyomi": [
+            "す-い"
+          ]
+        },
+        "translation": "acid"
+      },
+      {
+        "kanji": "鉱",
+        "radical": "金",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "こう"
+          ],
+          "onyomi": []
+        },
+        "translation": "mineral"
+      },
+      {
+        "kanji": "銅",
+        "radical": "金",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "どう"
+          ],
+          "onyomi": []
+        },
+        "translation": "copper"
+      },
+      {
+        "kanji": "銭",
+        "radical": "金",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "せん"
+          ],
+          "onyomi": [
+            "ぜに"
+          ]
+        },
+        "translation": "coin"
+      },
+      {
+        "kanji": "防",
+        "radical": "阜",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ぼう"
+          ],
+          "onyomi": [
+            "ふせ-ぐ"
+          ]
+        },
+        "translation": "prevent"
+      },
+      {
+        "kanji": "限",
+        "radical": "阜",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "げん"
+          ],
+          "onyomi": [
+            "かぎ-る"
+          ]
+        },
+        "translation": "limit"
+      },
+      {
+        "kanji": "険",
+        "radical": "阜",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "けん"
+          ],
+          "onyomi": [
+            "けわ-しい"
+          ]
+        },
+        "translation": "precipitous"
+      },
+      {
+        "kanji": "際",
+        "radical": "阜",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "さい"
+          ],
+          "onyomi": [
+            "きわ"
+          ]
+        },
+        "translation": "occasion"
+      },
+      {
+        "kanji": "雑",
+        "radical": "隹",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ざつ",
+            "ぞう"
+          ],
+          "onyomi": []
+        },
+        "translation": "miscellaneous"
+      },
+      {
+        "kanji": "非",
+        "radical": "非",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "ひ"
+          ],
+          "onyomi": []
+        },
+        "translation": "negative"
+      },
+      {
+        "kanji": "預",
+        "radical": "頁",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "よ"
+          ],
+          "onyomi": [
+            "あず-ける",
+            "あず-かる"
+          ]
+        },
+        "translation": "deposit"
+      },
+      {
+        "kanji": "領",
+        "radical": "頁",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "りょう"
+          ],
+          "onyomi": []
+        },
+        "translation": "territory"
+      },
+      {
+        "kanji": "額",
+        "radical": "頁",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "がく"
+          ],
+          "onyomi": [
+            "ひたい"
+          ]
+        },
+        "translation": "amount"
+      },
+      {
+        "kanji": "飼",
+        "radical": "食",
+        "grade": "5",
+        "furigana": {
+          "kunyomi": [
+            "し"
+          ],
+          "onyomi": [
+            "か-う"
+          ]
+        },
+        "translation": "domesticate"
+      }
+      ],
+  "GradeSix": [
+    
     {
       "kanji": "並",
       "radical": "立",

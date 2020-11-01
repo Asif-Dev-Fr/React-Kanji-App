@@ -7,9 +7,13 @@ import NavBar from './Components/Navbar';
 const App = () => {
 
   const [allData, setAllData] = useState([]);
-  const [shougakkouKanjis, setShougakkouKanjis] = useState([]);
   const [chuugakkouKanjis, setChuugakkouKanjis] = useState([]);
-  const [gradeOne, setGradeOne] = useState([]);
+  const [gradeOneKanji, setGradeOneKanji] = useState([]);
+  const [gradeTwoKanji, setGradeTwoKanji] = useState([]);
+  const [gradeThreeKanji, setGradeThreeKanji] = useState([]);
+  const [gradeFourKanji, setGradeFourKanji] = useState([]);
+  const [gradeFiveKanji, setGradeFiveKanji] = useState([]);
+  const [gradeSixKanji, setGradeSixKanji] = useState([]);
 
   useEffect(() => {
     const retrieveData = async () => {
@@ -19,12 +23,13 @@ const App = () => {
       console.log(data);
 
       setAllData(data);
-      setShougakkouKanjis(data.shougakkou);
-      setChuugakkouKanjis(data.chuugakkou);
-      setGradeOne(data.shougakkou[0].grade === '1');
-      console.log(gradeOne);
-
-
+      setGradeOneKanji(data.GradeOne);
+      setGradeTwoKanji(data.GradeTwo);
+      setGradeThreeKanji(data.GradeThree);
+      setGradeFourKanji(data.GradeFour);
+      setGradeFiveKanji(data.GradeFive);
+      setGradeSixKanji(data.gradeSix);
+      
     };
     retrieveData();    
   }, []);
@@ -33,14 +38,8 @@ const App = () => {
   return (
     <div className="App container-fluid p-0">
       <NavBar />
-      {
-        
-        shougakkouKanjis.map((value) => (
-          value.grade === '1' ?
-          <p>{value.kanji}</p>
-          : ''
-        ))
-      }
+
+      
     </div>
   );
 }
