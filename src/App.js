@@ -39,7 +39,7 @@ const App = () => {
     <div className="App container-fluid p-0">
       <NavBar />
 
-      
+       
     </div>
   );
 }
