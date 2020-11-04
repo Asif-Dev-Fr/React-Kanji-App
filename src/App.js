@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
 import NavBar from './Components/Navbar';
+import HomeScreen from './Screens/HomeScreen';
+import GradeOneScreen from './Screens/GradeOneScreen';
 
 
 const App = () => {
@@ -37,9 +44,13 @@ const App = () => {
 
   return (
     <div className="App container-fluid p-0">
+      <Router>
       <NavBar />
-
-       
+      <Switch>
+        <Route path='/' exact component={HomeScreen} />
+        <Route path='/kanjis/grade-one' component={GradeOneScreen} />
+      </Switch>
+      </Router>
     </div>
   );
 }
