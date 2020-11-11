@@ -1,4 +1,32 @@
-.navbar {
+body {
+  font-family: "Lato", monospace, sans-serif;
+}
+
+.container-fluid .navbar {
   background-color: #2C3E50;
   color: #FFFFFF;
+}
+
+.container-fluid .center {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.container-fluid .row .col-lg-6 {
+  text-align: center;
+}
+
+.container-fluid .row .col-lg-6 .linkStyle .buttonStyle {
+  width: 80%;
+  height: 100px;
+  margin: 15px auto;
+}
+
+.container-fluid .row .col-lg-6 .linkStyle {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.container-fluid .wrap {
+  flex-wrap: wrap;
 }

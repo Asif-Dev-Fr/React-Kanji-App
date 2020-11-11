@@ -9,6 +9,7 @@ import {
 import NavBar from './Components/Navbar';
 import HomeScreen from './Screens/HomeScreen';
 import GradeOneScreen from './Screens/GradeOneScreen';
+import GradeTwoScreen from './Screens/GradeTwoScreen';
 
 
 const App = () => {
@@ -48,7 +49,9 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route path='/' exact component={HomeScreen} />
-        <Route path='/kanjis/grade-one' component={GradeOneScreen} />
+        <Route path='/kanjis/grade-one'
+          render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
+        />
       </Switch>
       </Router>
     </div>

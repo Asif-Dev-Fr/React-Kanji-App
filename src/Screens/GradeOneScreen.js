@@ -1,9 +1,14 @@
 import React from 'react';
 
-const GradeOneScreen = () => {
+const GradeOneScreen = ({ gradeOne }) => {
     return(
-        <div>
-            GradeOneScreen
+        <div className="center wrap">
+            {
+                gradeOne.map((value) =>(
+                    value.kanji 
+                ))
+            }
+
         </div>
     )
 }
