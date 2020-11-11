@@ -28,5 +28,16 @@ body {
 }
 
 .container-fluid .wrap {
+  display: flex;
   flex-wrap: wrap;
+}
+
+.container-fluid .wrap .cardStyle {
+  width: 32%;
+  margin: 5px auto;
+}
+
+.container-fluid .wrap .cardStyle .card-body .card-text {
+  font-size: 48px;
+  text-align: center;
 }

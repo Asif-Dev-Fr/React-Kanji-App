@@ -14,7 +14,7 @@ import GradeTwoScreen from './Screens/GradeTwoScreen';
 
 const App = () => {
 
-  const [allData, setAllData] = useState([]);
+
   const [chuugakkouKanjis, setChuugakkouKanjis] = useState([]);
   const [gradeOneKanji, setGradeOneKanji] = useState([]);
   const [gradeTwoKanji, setGradeTwoKanji] = useState([]);
@@ -24,20 +24,19 @@ const App = () => {
   const [gradeSixKanji, setGradeSixKanji] = useState([]);
 
   useEffect(() => {
+    console.log('Hello AppJS');
     const retrieveData = async () => {
       // Les données sont dans le fichier public :
-      const response = await fetch('./kanji-list.json');
+      const response = await fetch('../kanji-list.json');
       const data = await response.json();
       console.log(data);
-
-      setAllData(data);
+      
       setGradeOneKanji(data.GradeOne);
       setGradeTwoKanji(data.GradeTwo);
       setGradeThreeKanji(data.GradeThree);
       setGradeFourKanji(data.GradeFour);
       setGradeFiveKanji(data.GradeFive);
       setGradeSixKanji(data.gradeSix);
-      
     };
     retrieveData();    
   }, []);
@@ -52,6 +51,7 @@ const App = () => {
         <Route path='/kanjis/grade-one'
           render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
         />
+        <Route path='/kanjis/grade-two' component={GradeTwoScreen} />
       </Switch>
       </Router>
     </div>

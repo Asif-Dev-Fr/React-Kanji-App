@@ -1,11 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const GradeOneScreen = ({ gradeOne }) => {
-    return(
+    return (
         <div className="center wrap">
             {
-                gradeOne.map((value) =>(
-                    value.kanji 
+                gradeOne.map((value) => (
+                    <div className="card cardStyle" key={value.kanji}>
+                        <div className="card-body">
+                            <p className="card-text">
+                                {value.kanji}
+                            </p>
+                        </div>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">
+                                {value.translation}
+                            </li>
+                            <li className="list-group-item">Dapibus ac facilisis in</li>
+                            <li className="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div> 
                 ))
             }
 

@@ -14,7 +14,11 @@ const HomeScreen = () => {
                     </Link>
                 </div>
                 <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 2</button>
+                    <Link to="/kanjis/grade-two" className="linkStyle">
+                            <button className="btn btn-success buttonStyle">
+                                Grade Deux
+                            </button>
+                    </Link>
                 </div>
             </div>
 
