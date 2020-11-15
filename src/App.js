@@ -8,12 +8,11 @@ import {
 
 import NavBar from './Components/Navbar';
 import HomeScreen from './Screens/HomeScreen';
+import Furigana from './Screens/Furigata';
 import GradeOneScreen from './Screens/GradeOneScreen';
 import GradeTwoScreen from './Screens/GradeTwoScreen';
 
-
 const App = () => {
-
 
   const [chuugakkouKanjis, setChuugakkouKanjis] = useState([]);
   const [gradeOneKanji, setGradeOneKanji] = useState([]);
@@ -22,12 +21,13 @@ const App = () => {
   const [gradeFourKanji, setGradeFourKanji] = useState([]);
   const [gradeFiveKanji, setGradeFiveKanji] = useState([]);
   const [gradeSixKanji, setGradeSixKanji] = useState([]);
+  const [furigana, setFurigana] = useState([]);
 
   useEffect(() => {
     console.log('Hello AppJS');
     const retrieveData = async () => {
       // Les données sont dans le fichier public :
-      const response = await fetch('../kanji-list.json');
+      const response = await fetch('../data/kanji-list.json');
       const data = await response.json();
       console.log(data);
       
@@ -48,6 +48,7 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route path='/' exact component={HomeScreen} />
+        <Route path='/furigana' component={Furigana} />
         <Route path='/kanjis/grade-one'
           render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
         />

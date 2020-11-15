@@ -7,24 +7,28 @@ const HomeScreen = () => {
 
             <div className="row">
                 <div className="col-lg-6">
+                    <Link to="/furigana" className="linkStyle">
+                        <button className="btn btn-success buttonStyle">
+                            Furigana
+                        </button>
+                    </Link>
+                </div>
+                <div className="col-lg-6">
                     <Link to="/kanjis/grade-one" className="linkStyle">
                         <button className="btn btn-success buttonStyle">
                             Grade One
                         </button>
                     </Link>
                 </div>
+            </div>
+
+            <div className="row">
                 <div className="col-lg-6">
                     <Link to="/kanjis/grade-two" className="linkStyle">
                             <button className="btn btn-success buttonStyle">
                                 Grade Deux
                             </button>
                     </Link>
-                </div>
-            </div>
-
-            <div className="row">
-                <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 1</button>
                 </div>
                 <div className="col-lg-6">
                     <button className="btn btn-success buttonStyle">Grade 1</button>

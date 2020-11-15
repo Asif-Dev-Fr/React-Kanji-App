@@ -41,3 +41,19 @@ body {
   font-size: 48px;
   text-align: center;
 }
+
+
+/* Furigana Page */
+
+.container-fluid .wrap .furiganaCardStyle {
+  width: 33%;
+  margin: 5px auto;
+}
+
+.container-fluid .wrap .furiganaCardStyle .card-body .card-text {
+  font-size: 48px;
+  text-align: center;
+}
+
+
+/* Fin Furigana Page */

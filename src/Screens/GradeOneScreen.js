@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const GradeOneScreen = ({ gradeOne }) => {
     return (
@@ -13,7 +13,7 @@ const GradeOneScreen = ({ gradeOne }) => {
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
-                                {value.translation}
+                                {value.translation.charAt(0).toUpperCase() + value.translation.slice(1)}
                             </li>
                             <li className="list-group-item">Dapibus ac facilisis in</li>
                             <li className="list-group-item">Vestibulum at eros</li>
