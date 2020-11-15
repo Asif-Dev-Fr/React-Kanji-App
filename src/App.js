@@ -7,10 +7,15 @@ import {
 } from "react-router-dom";
 
 import NavBar from './Components/Navbar';
+import {Footer} from './Components/Footer';
 import HomeScreen from './Screens/HomeScreen';
 import Furigana from './Screens/Furigata';
 import GradeOneScreen from './Screens/GradeOneScreen';
 import GradeTwoScreen from './Screens/GradeTwoScreen';
+import GradeThreeScreen from './Screens/GradeThreeScreen';
+import GradeFourScreen from './Screens/GradeFourScreen';
+import GradeFiveScreen from './Screens/GradeFiveScreen';
+import GradeSixScreen from './Screens/GradeSixScreen';
 
 const App = () => {
 
@@ -21,10 +26,8 @@ const App = () => {
   const [gradeFourKanji, setGradeFourKanji] = useState([]);
   const [gradeFiveKanji, setGradeFiveKanji] = useState([]);
   const [gradeSixKanji, setGradeSixKanji] = useState([]);
-  const [furigana, setFurigana] = useState([]);
 
   useEffect(() => {
-    console.log('Hello AppJS');
     const retrieveData = async () => {
       // Les données sont dans le fichier public :
       const response = await fetch('../data/kanji-list.json');
@@ -36,26 +39,32 @@ const App = () => {
       setGradeThreeKanji(data.GradeThree);
       setGradeFourKanji(data.GradeFour);
       setGradeFiveKanji(data.GradeFive);
-      setGradeSixKanji(data.gradeSix);
+      setGradeSixKanji(data.GradeSix);
     };
     retrieveData();    
   }, []);
 
 
   return (
-    <div className="App container-fluid p-0">
-      <Router>
-      <NavBar />
-      <Switch>
-        <Route path='/' exact component={HomeScreen} />
-        <Route path='/furigana' component={Furigana} />
-        <Route path='/kanjis/grade-one'
-          render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
-        />
-        <Route path='/kanjis/grade-two' component={GradeTwoScreen} />
-      </Switch>
-      </Router>
-    </div>
+    <Router>
+      <div className="App container-fluid p-0">
+        <NavBar />
+        <Switch>
+          <Route path='/' exact component={HomeScreen} />
+          <Route path='/furigana' component={Furigana} />
+          <Route path='/kanjis/grade-one'
+            render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
+          />
+          <Route path='/kanjis/grade-two' render={() => <GradeTwoScreen gradeTwo={gradeTwoKanji} />}  />
+          <Route path='/kanjis/grade-three' render={() => <GradeThreeScreen gradeThree={gradeThreeKanji} />} />
+          <Route path='/kanjis/grade-three' render={() => <GradeThreeScreen gradeThree={gradeThreeKanji} />}  />
+          <Route path='/kanjis/grade-four' render={() => <GradeFourScreen gradeFour={gradeFourKanji} />}  />
+          <Route path='/kanjis/grade-five' render={() => <GradeFiveScreen gradeFive={gradeFiveKanji} />}  />
+          <Route path='/kanjis/grade-six' render={() => <GradeSixScreen gradeSix={gradeSixKanji} />}  />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const GradeOneScreen = ({ gradeOne }) => {
+const GradeSixScreen = ({ gradeSix }) => {
 
     const [translation, setTranslation] = useState('');
     const [kunyomi, setKunyomi] = useState('');
@@ -9,7 +9,7 @@ const GradeOneScreen = ({ gradeOne }) => {
     return (
         <div className="center wrap">
             {
-                gradeOne.map((value) => (
+                gradeSix.map((value) => (
                     <div className="card cardStyle" key={value.kanji}>
                         <div className="card-body">
                             <p className="card-text">
@@ -117,4 +117,4 @@ const GradeOneScreen = ({ gradeOne }) => {
     )
 }
 
-export default GradeOneScreen;
+export default GradeSixScreen;

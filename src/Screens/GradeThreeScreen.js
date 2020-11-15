@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const GradeOneScreen = ({ gradeOne }) => {
+const GradeThreeScreen = ({ gradeThree }) => {
 
     const [translation, setTranslation] = useState('');
     const [kunyomi, setKunyomi] = useState('');
@@ -9,7 +9,7 @@ const GradeOneScreen = ({ gradeOne }) => {
     return (
         <div className="center wrap">
             {
-                gradeOne.map((value) => (
+                gradeThree.map((value) => (
                     <div className="card cardStyle" key={value.kanji}>
                         <div className="card-body">
                             <p className="card-text">
@@ -50,7 +50,7 @@ const GradeOneScreen = ({ gradeOne }) => {
                                     (onyomi === value.furigana.onyomi) ?
                                         (<div>
                                             {
-                                                value.furigana.onyomi[0] ? `${value.furigana.onyomi[0]}` : ''
+                                                value.furigana.onyomi[0] ? `${value.furigana.onyomi[0]}` : 'No onyomi'
                                             }
                                             {
                                                 value.furigana.onyomi[1] ? ` / ${value.furigana.onyomi[1]}` : ''
@@ -117,4 +117,4 @@ const GradeOneScreen = ({ gradeOne }) => {
     )
 }
 
-export default GradeOneScreen;
+export default GradeThreeScreen;

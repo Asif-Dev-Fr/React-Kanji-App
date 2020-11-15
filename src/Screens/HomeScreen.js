@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const HomeScreen = () => {
-    return(
+    return (
         <div className="center">
 
             <div className="row">
@@ -25,32 +25,46 @@ const HomeScreen = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <Link to="/kanjis/grade-two" className="linkStyle">
-                            <button className="btn btn-success buttonStyle">
-                                Grade Deux
+                        <button className="btn btn-success buttonStyle">
+                            Grade Deux
                             </button>
                     </Link>
                 </div>
                 <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 1</button>
+                    <Link to="/kanjis/grade-three" className="linkStyle">
+                        <button className="btn btn-success buttonStyle">
+                            Grade Three
+                            </button>
+                    </Link>
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 3</button>
+                    <Link to="/kanjis/grade-four" className="linkStyle">
+                        <button className="btn btn-success buttonStyle">
+                            Grade Four
+                        </button>
+                    </Link>
                 </div>
                 <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 4</button>
+                    <Link to="/kanjis/grade-five" className="linkStyle">
+                        <button className="btn btn-success buttonStyle">
+                            Grade Five
+                        </button>
+                    </Link>
                 </div>
             </div>
 
             <div className="row">
                 <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 5</button>
+                    <Link to="/kanjis/grade-six" className="linkStyle">
+                        <button className="btn btn-success buttonStyle">
+                            Grade Six
+                        </button>
+                    </Link>
                 </div>
-                <div className="col-lg-6">
-                    <button className="btn btn-success buttonStyle">Grade 6</button>
-                </div>
+                
             </div>
 
         </div>

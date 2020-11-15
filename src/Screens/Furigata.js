@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 const Furigana = () => {
 
     const [kana, setKana] = useState([]);
-    const [isShown, setIsShown] = useState(false);
     const [id, setId] = useState(0);
 
     useEffect(() => {
