@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Furigana = () => {
 
     const [kana, setKana] = useState([]);
     const [isShown, setIsShown] = useState(false);
+    const [id, setId] = useState(0);
 
     useEffect(() => {
         const retrieveFurigana = async () => {
@@ -15,17 +16,13 @@ const Furigana = () => {
         retrieveFurigana();
     }, []);
 
-    const showAnswer = () => {
-        setIsShown(true);
-    }
-
-    return(
+    return (
         <div className="center wrap">
             {
                 kana.map((value) => (
                     <div className="card furiganaCardStyle" key={value.id}>
                         <div className="card-body">
-                            <p className="card-text">
+                            <div className="card-text">
                                 <div>
                                     <span data-toggle="tooltip" data-placement="top" title="Hiragana">
                                         {value.hiragana}
@@ -36,15 +33,27 @@ const Furigana = () => {
                                         {value.katakana}
                                     </span>
                                 </div>
-                            </p>
+                            </div>
                         </div>
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
-                                <div onClick={showAnswer}><button> Read translation </button></div>
-                                { isShown === true ? <div>{ value.meaning.toUpperCase() }</div> : ''}
+                                <div className="button">
+                                    <button onClick={() => {
+                                        if (id !== value.id) {
+                                            setId(value.id);
+                                        } else {
+                                            setId(0);          
+                                        }
+                                    }}>
+                                        {id === value.id ? 'Hide translation' : 'Show translation'}
+                                    </button>
+                                </div>
+                                {
+                                    id === value.id ? <div className='meaningFurigana'>{value.meaning.toUpperCase()}</div> : <div className='meaningFurigana'>Hidden</div>
+                                }
                             </li>
                         </ul>
-                    </div> 
+                    </div>
                 ))
             }
         </div>
