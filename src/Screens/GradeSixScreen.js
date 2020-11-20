@@ -107,7 +107,8 @@ const GradeSixScreen = ({ gradeSix }) => {
                                         <div>Hidden kunyomi</div>
                                 }
                             </li>
-
+ 
+ 
                         </ul>
                     </div>
                 ))
