@@ -50,37 +50,9 @@ const GradeSixScreen = ({ gradeSix }) => {
                                     (onyomi === value.furigana.onyomi) ?
                                         (<div>
                                             {
-                                                value.furigana.onyomi[0] ? `${value.furigana.onyomi[0]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[1] ? ` / ${value.furigana.onyomi[1]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[2] ? ` / ${value.furigana.onyomi[2]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[3] ? ` / ${value.furigana.onyomi[3]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[4] ? ` / ${value.furigana.onyomi[4]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[5] ? ` / ${value.furigana.onyomi[5]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[6] ? ` / ${value.furigana.onyomi[6]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[7] ? ` / ${value.furigana.onyomi[7]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[8] ? ` / ${value.furigana.onyomi[8]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[9] ? ` / ${value.furigana.onyomi[9]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[10] ? ` / ${value.furigana.onyomi[10]}` : ''
+                                                onyomi.map((value) => (
+                                                    value ? value : 'No onyomi'
+                                                ))
                                             }
                                         </div>)
 
