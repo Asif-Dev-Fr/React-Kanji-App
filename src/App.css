@@ -27,6 +27,10 @@ body {
 
 /* Page HomeScreen */
 
+.container-fluid .homepage {
+  padding-top: 35px;
+}
+
 .container-fluid .row .col-lg-6 .linkStyle .buttonStyle {
   width: 80%;
   height: 100px;
@@ -63,6 +67,10 @@ body {
 
 .container-fluid .wrap .cardStyle .list-group .list-group-item .button {
   width: 100%;
+}
+
+.container-fluid .wrap .cardStyle .list-group .list-group-item .onyomi, .container-fluid .wrap .cardStyle .list-group .list-group-item .kunyomi {
+  font-size: 22px;
 }
 
 /* Fin page grade */
@@ -103,5 +111,26 @@ footer {
   line-height: 50px;
 }
 
+.footer-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
 
 /* Fin de footer */
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .container-fluid .wrap .card {
+    width: 90%;
+    margin: 5px auto;
+  }
+
+  #footer {
+    position: static;
+    height: 100px;
+    width: 100%;
+  }
+
+}

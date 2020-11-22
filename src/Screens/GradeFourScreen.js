@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const GradeFourScreen = ({ gradeFour }) => {
 
     const [translation, setTranslation] = useState('');
     const [kunyomi, setKunyomi] = useState('');
     const [onyomi, setOnyomi] = useState('');
+
+    useEffect(() => {
+        const footer = document.getElementById('footer');
+        footer.classList.remove('footer-bottom');
+    }, []);
 
     return (
         <div className="center wrap">

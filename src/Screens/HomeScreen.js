@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const HomeScreen = () => {
+
+    useEffect(() =>{
+        const footer = document.getElementById('footer');
+        footer.classList.add('footer-bottom');
+    },[]);
+
     return (
-        <div className="center">
+        <div className="center homepage">
 
             <div className="row">
                 <div className="col-lg-6">

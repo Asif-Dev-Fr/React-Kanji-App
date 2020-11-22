@@ -28,6 +28,7 @@ const App = () => {
   const [gradeSixKanji, setGradeSixKanji] = useState([]);
 
   useEffect(() => {
+
     const retrieveData = async () => {
       // Les données sont dans le fichier public :
       const response = await fetch('../data/kanji-list.json');

@@ -13,6 +13,9 @@ const Furigana = () => {
             setKana(data.kana);
         }
         retrieveFurigana();
+
+        const footer = document.getElementById('footer');
+        footer.classList.remove('footer-bottom');
     }, []);
 
     return (
