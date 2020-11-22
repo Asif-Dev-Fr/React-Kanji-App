@@ -57,7 +57,6 @@ const GradeOneScreen = ({ gradeOne }) => {
                                                 : 'No onyomi'
                                             }
                                         </div>)
-
                                         : <div>Hidden onyomi</div>
                                 }
                             </li>

@@ -48,11 +48,13 @@ const GradeSixScreen = ({ gradeSix }) => {
                                 </div>
                                 {
                                     (onyomi === value.furigana.onyomi) ?
-                                        (<div>
+                                        (<div className="onyomi">
                                             {
+                                                onyomi.length !== 0 ?
                                                 onyomi.map((value) => (
-                                                    value ? value : 'No onyomi'
+                                                    `[ ${value} ] `
                                                 ))
+                                                : 'No onyomi'
                                             }
                                         </div>)
 
@@ -73,9 +75,15 @@ const GradeSixScreen = ({ gradeSix }) => {
                                 </div>
                                 {
                                     (kunyomi === value.furigana.kunyomi) ?
-                                        (<div>{value.furigana.kunyomi[0]} {
-                                            value.furigana.kunyomi[1] ? `/ ${value.furigana.kunyomi[1]}` : ''
-                                        } </div>) :
+                                        (<div className="kunyomi">
+                                            {
+                                                kunyomi.length !== 0 ?
+                                                kunyomi.map((value) =>(
+                                                    `[ ${value} ] `
+                                                )) 
+                                                : 'No kunyomi'
+                                            }
+                                        </div>) :
                                         <div>Hidden kunyomi</div>
                                 }
                             </li>

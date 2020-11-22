@@ -48,42 +48,15 @@ const GradeThreeScreen = ({ gradeThree }) => {
                                 </div>
                                 {
                                     (onyomi === value.furigana.onyomi) ?
-                                        (<div>
+                                        (<div className="onyomi">
                                             {
-                                                value.furigana.onyomi[0] ? `${value.furigana.onyomi[0]}` : 'No onyomi'
-                                            }
-                                            {
-                                                value.furigana.onyomi[1] ? ` / ${value.furigana.onyomi[1]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[2] ? ` / ${value.furigana.onyomi[2]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[3] ? ` / ${value.furigana.onyomi[3]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[4] ? ` / ${value.furigana.onyomi[4]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[5] ? ` / ${value.furigana.onyomi[5]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[6] ? ` / ${value.furigana.onyomi[6]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[7] ? ` / ${value.furigana.onyomi[7]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[8] ? ` / ${value.furigana.onyomi[8]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[9] ? ` / ${value.furigana.onyomi[9]}` : ''
-                                            }
-                                            {
-                                                value.furigana.onyomi[10] ? ` / ${value.furigana.onyomi[10]}` : ''
+                                                onyomi.length !== 0 ?
+                                                onyomi.map((value) => (
+                                                    `[ ${value} ] `
+                                                ))
+                                                : 'No onyomi'
                                             }
                                         </div>)
-
                                         : <div>Hidden onyomi</div>
                                 }
                             </li>
@@ -101,9 +74,15 @@ const GradeThreeScreen = ({ gradeThree }) => {
                                 </div>
                                 {
                                     (kunyomi === value.furigana.kunyomi) ?
-                                        (<div>{value.furigana.kunyomi[0]} {
-                                            value.furigana.kunyomi[1] ? `/ ${value.furigana.kunyomi[1]}` : ''
-                                        } </div>) :
+                                        (<div className="kunyomi">
+                                            {
+                                                kunyomi.length !== 0 ?
+                                                kunyomi.map((value) =>(
+                                                    `[ ${value} ] `
+                                                )) 
+                                                : 'No kunyomi'
+                                            }
+                                        </div>) :
                                         <div>Hidden kunyomi</div>
                                 }
                             </li>
