@@ -15,6 +15,10 @@ body {
   color: #FFF;
 }
 
+.container-fluid .navbar .navbar-toggler  {
+  background-color: #FFF;
+}
+
 .container-fluid .center {
   width: 80%;
   margin: 10px auto;
@@ -121,7 +125,7 @@ footer {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .container-fluid .wrap .card {
     width: 90%;
     margin: 5px auto;
