@@ -16,6 +16,7 @@ import GradeThreeScreen from './Screens/GradeThreeScreen';
 import GradeFourScreen from './Screens/GradeFourScreen';
 import GradeFiveScreen from './Screens/GradeFiveScreen';
 import GradeSixScreen from './Screens/GradeSixScreen';
+import QuizFurigana from './Screens/QuizFurigana';
 
 const App = () => {
 
@@ -53,7 +54,8 @@ const App = () => {
         <NavBar />
         <Switch>
           <Route path='/' exact component={HomeScreen} />
-          <Route path='/furigana' component={Furigana} />
+          <Route path='/furigana' exact component={Furigana} />
+          <Route path='/furigana/quiz' component={QuizFurigana} />
           <Route path='/kanjis/grade-one'
             render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
           />
