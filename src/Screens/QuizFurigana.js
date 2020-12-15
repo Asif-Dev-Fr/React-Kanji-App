@@ -30,7 +30,7 @@ const QuizFurigana = () => {
                 <p>{kana.hiragana}</p>
             }
             {
-                sliced.slice(0,11).map((value) =>(
+                sliced.slice(0,5).map((value) =>(
                     value.hiragana
                 ))
             }
