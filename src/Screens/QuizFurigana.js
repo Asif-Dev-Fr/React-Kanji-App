@@ -21,16 +21,20 @@ const QuizFurigana = () => {
         footer.classList.remove('footer-bottom');
     }, []);
 
+    const randomNumber = () => {
+        
+        console.log('Hello');
+    }
 
 
     return(
         <div>
             <h1>Try</h1>
             {
-                <p>{kana.hiragana}</p>
+                <p>Les kana : {kana.hiragana}</p>
             }
             {
-                sliced.slice(0,5).map((value) =>(
+                sliced.slice(Math.floor(Math.random() * 46), 47).map((value) =>(
                     value.hiragana
                 ))
             }
