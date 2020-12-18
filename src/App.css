@@ -107,6 +107,42 @@ body {
 
 /* Fin Furigana Page */
 
+/* Page Furigana Quizz */
+
+.container-fluid .quiz .furiganaCardStyle {
+  width: 33%;
+  margin: 60px auto;
+}
+
+.container-fluid .quiz .furiganaCardStyle .card-body .card-text {
+  font-size: 48px;
+  text-align: center;
+}
+
+.container-fluid .quiz .furiganaCardStyle .list-group .list-group-item .meaningFurigana {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.container-fluid .quiz .furiganaCardStyle .list-group .list-group-item .button {
+  text-align: center;
+}
+
+.container-fluid .quiz .furiganaCardStyle .list-group .list-group-item .button button {
+  width: 100%;
+}
+
+.container-fluid .furiganaChangeButton {
+  text-align: center;
+}
+
+.container-fluid .furiganaChangeButton button {
+  width: 300px;
+}
+
+/* Fin page Furigana Quizz */
+
 /* Footer */ 
 footer {
   background-color: #2C3E50;

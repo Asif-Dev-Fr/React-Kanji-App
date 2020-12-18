@@ -71,6 +71,13 @@ const HomeScreen = () => {
                         </button>
                     </Link>
                 </div>
+                <div className="col-lg-6">
+                    <Link to="/furigana/quiz" className="linkStyle">
+                        <button className="btn btn-success buttonStyle">
+                            Furigana Quiz
+                        </button>
+                    </Link>
+                </div>
                 
             </div>
 
