@@ -18,7 +18,7 @@ const NavBar = () => {
                         <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Kanjis
                         </Link>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
                                 <Link className="dropdown-item" to="/kanjis/grade-one">Grade One</Link>
                             </li>
@@ -46,6 +46,9 @@ const NavBar = () => {
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
                                 <Link className="dropdown-item" to="/furigana/quiz">Furigana Quiz</Link>
+                            </li>
+                            <li>
+                                <Link className="dropdown-item" to="/kanji/quiz">Kanji Quiz</Link>
                             </li>
                         </ul>
                     </li>

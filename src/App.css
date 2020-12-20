@@ -35,13 +35,13 @@ body {
   padding-top: 35px;
 }
 
-.container-fluid .row .col-lg-6 .linkStyle .buttonStyle {
-  width: 80%;
+.container-fluid .row .col-lg-4 .linkStyle .buttonStyle {
+  width: 90%;
   height: 100px;
   margin: 15px auto;
 }
 
-.container-fluid .row .col-lg-6 .linkStyle {
+.container-fluid .row .col-lg-4 .linkStyle {
   text-decoration: none;
   color: #FFF;
 }

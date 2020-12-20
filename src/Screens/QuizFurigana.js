@@ -10,7 +10,6 @@ const QuizFurigana = () => {
         const retrieveFurigana = async () => {
             const response = await fetch('../data/furigana.json');
             const data = await response.json();
-            console.log(data.kana);
             setKana(data.kana);
             // Random Card :
             const randomNumber = Math.floor(Math.random() * data.kana.length)

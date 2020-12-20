@@ -17,6 +17,7 @@ import GradeFourScreen from './Screens/GradeFourScreen';
 import GradeFiveScreen from './Screens/GradeFiveScreen';
 import GradeSixScreen from './Screens/GradeSixScreen';
 import QuizFurigana from './Screens/QuizFurigana';
+import QuizKanji from './Screens/QuizKanji';
 
 const App = () => {
 
@@ -57,17 +58,28 @@ const App = () => {
         <main>
         <Switch>
           <Route path='/' exact component={HomeScreen} />
+
           <Route path='/furigana' exact component={Furigana} />
           <Route path='/furigana/quiz' component={QuizFurigana} />
-          <Route path='/kanjis/grade-one'
-            render={() => <GradeOneScreen gradeOne={gradeOneKanji} />}  
-          />
+
+          <Route path='/kanjis/grade-one'render={() => <GradeOneScreen gradeOne={gradeOneKanji} />} />
           <Route path='/kanjis/grade-two' render={() => <GradeTwoScreen gradeTwo={gradeTwoKanji} />}  />
           <Route path='/kanjis/grade-three' render={() => <GradeThreeScreen gradeThree={gradeThreeKanji} />} />
           <Route path='/kanjis/grade-three' render={() => <GradeThreeScreen gradeThree={gradeThreeKanji} />}  />
           <Route path='/kanjis/grade-four' render={() => <GradeFourScreen gradeFour={gradeFourKanji} />}  />
           <Route path='/kanjis/grade-five' render={() => <GradeFiveScreen gradeFive={gradeFiveKanji} />}  />
           <Route path='/kanjis/grade-six' render={() => <GradeSixScreen gradeSix={gradeSixKanji} />}  />
+
+          <Route path='/kanji/quiz' 
+            render={() => <QuizKanji 
+                gradeOne={gradeOneKanji} 
+                gradeTwo={gradeTwoKanji}  
+                gradeThree={gradeThreeKanji}  
+                gradeFour={gradeFourKanji}
+                gradeFive={gradeFiveKanji}
+                gradeSix={gradeSixKanji}
+              />} 
+          />
         </Switch>
         </main>
 
