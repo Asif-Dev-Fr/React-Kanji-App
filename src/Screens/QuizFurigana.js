@@ -12,7 +12,9 @@ const QuizFurigana = () => {
             const data = await response.json();
             console.log(data.kana);
             setKana(data.kana);
-            setNumber(Math.floor(Math.random() * data.kana.length));
+            // Random Card :
+            const randomNumber = Math.floor(Math.random() * data.kana.length)
+            setNumber(randomNumber);
         }
         retrieveFurigana();
 

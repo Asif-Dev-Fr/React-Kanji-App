@@ -111,7 +111,7 @@ body {
 
 .container-fluid .quiz .furiganaCardStyle {
   width: 33%;
-  margin: 60px auto;
+  margin: 60px auto 40px auto;
 }
 
 .container-fluid .quiz .furiganaCardStyle .card-body .card-text {
@@ -169,7 +169,16 @@ footer {
   #footer {
     position: static;
     height: 100px;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container-fluid .quiz .furiganaCardStyle {
+    width: 90%;
+  }
+
+  .container-fluid .furiganaChangeButton button {
+    width: 80%;
   }
 
 }

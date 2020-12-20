@@ -51,7 +51,10 @@ const App = () => {
   return (
     <Router>
       <div className="App container-fluid p-0">
-        <NavBar />
+        <header>
+          <NavBar />
+        </header>
+        <main>
         <Switch>
           <Route path='/' exact component={HomeScreen} />
           <Route path='/furigana' exact component={Furigana} />
@@ -66,7 +69,10 @@ const App = () => {
           <Route path='/kanjis/grade-five' render={() => <GradeFiveScreen gradeFive={gradeFiveKanji} />}  />
           <Route path='/kanjis/grade-six' render={() => <GradeSixScreen gradeSix={gradeSixKanji} />}  />
         </Switch>
+        </main>
+
         <Footer />
+        
       </div>
     </Router>
   );
