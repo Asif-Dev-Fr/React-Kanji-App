@@ -42,7 +42,6 @@ const App = () => {
       setGradeThreeKanji(data.GradeThree);
       setGradeFourKanji(data.GradeFour);
       setGradeFiveKanji(data.GradeFive);
-      
       setGradeSixKanji(data.GradeSix);
     };
     retrieveData();    
