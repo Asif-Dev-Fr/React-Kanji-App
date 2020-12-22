@@ -107,7 +107,7 @@ body {
 
 /* Fin Furigana Page */
 
-/* Page Furigana Quizz */
+/* Page Furigana Quiz */
 
 .container-fluid .quiz .furiganaCardStyle {
   width: 33%;
@@ -141,7 +141,21 @@ body {
   width: 300px;
 }
 
-/* Fin page Furigana Quizz */
+/* Fin page Furigana Quiz */
+
+/* Page Kanji Quiz */
+
+.container-fluid .center .buttonChangeGradeKanji .col-lg-4 {
+  text-align: center;
+}
+
+.container-fluid .center .buttonChangeGradeKanji .col-lg-4 button  {
+  width: 200px;
+  margin: 5px;
+}
+
+
+/* Fin page Kanji Quiz */
 
 /* Footer */ 
 footer {
