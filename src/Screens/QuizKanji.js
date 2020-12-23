@@ -19,7 +19,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
 
     useEffect(() =>{
         setKanjiGrade(gradeOne);
-        const randomNumber = Math.floor(Math.random() * gradeOne.length)
+        const randomNumber = Math.floor(Math.random() * gradeOne.length);
         setRandomKanji(randomNumber);
         setButtonOneColor(selectedColor);
         setButtonTwoColor(defaultColor);
@@ -174,6 +174,9 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         }
     }
 
+    const changeKanji = () => {
+        setRandomKanji(Math.floor(Math.random() * gradeOne.length))
+    }
     
 
     return(
@@ -284,6 +287,9 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
                         </div>
                     ))
                 }
+            </div>
+            <div className="kanjiChangeButton">
+                <button onClick={changeKanji}>Next Kanji</button>
             </div>
         </div>
     )

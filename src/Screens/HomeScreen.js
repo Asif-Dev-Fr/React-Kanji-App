@@ -75,6 +75,13 @@ const HomeScreen = () => {
                         </button>
                     </Link>
                 </div>
+                <div className="col-lg-4">
+                    <Link to="/kanji/quiz" className="linkStyle">
+                        <button className="btn btn-primary buttonStyle">
+                            Kanji Quiz
+                        </button>
+                    </Link>
+                </div>
             </div>
 
         </div>
