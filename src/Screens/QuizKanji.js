@@ -28,6 +28,8 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         setButtonFiveColor(defaultColor);
         setButtonSixColor(defaultColor);
 
+        const footer = document.getElementById('footer');
+        footer.classList.add('footer-bottom');
     },[gradeOne]);
 
     const defaultColor = 'btn btn-primary';
@@ -50,7 +52,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         if(buttonFiveColor === selectedColor) {
             setButtonFiveColor(defaultColor);
         };
-        if(buttonSixColor === selectedColor); {
+        if(buttonSixColor === selectedColor) {
             setButtonSixColor(defaultColor);
         }
 
@@ -75,7 +77,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         if(buttonFiveColor === selectedColor) {
             setButtonFiveColor(defaultColor);
         };
-        if(buttonSixColor === selectedColor); {
+        if(buttonSixColor === selectedColor) {
             setButtonSixColor(defaultColor);
         }
 
@@ -99,7 +101,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         if(buttonFiveColor === selectedColor) {
             setButtonFiveColor(defaultColor);
         };
-        if(buttonSixColor === selectedColor); {
+        if(buttonSixColor === selectedColor) {
             setButtonSixColor(defaultColor);
         }
 
@@ -123,7 +125,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         if(buttonFiveColor === selectedColor) {
             setButtonFiveColor(defaultColor);
         };
-        if(buttonSixColor === selectedColor); {
+        if(buttonSixColor === selectedColor) {
             setButtonSixColor(defaultColor);
         }
     }
@@ -146,7 +148,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         if(buttonFiveColor === defaultColor) {
             setButtonFiveColor(selectedColor);
         };
-        if(buttonSixColor === selectedColor); {
+        if(buttonSixColor === selectedColor) {
             setButtonSixColor(defaultColor);
         }
     }
@@ -169,7 +171,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         if(buttonFiveColor === selectedColor) {
             setButtonFiveColor(defaultColor);
         };
-        if(buttonSixColor === defaultColor); {
+        if(buttonSixColor === defaultColor) {
             setButtonSixColor(selectedColor);
         }
     }

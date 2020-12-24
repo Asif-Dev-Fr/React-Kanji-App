@@ -50,7 +50,7 @@ const App = () => {
 
   return (
     <Router>
-      <div className="App container-fluid p-0">
+      <div className="App container-fluid p-0 m-0">
         <header>
           <NavBar />
         </header>
