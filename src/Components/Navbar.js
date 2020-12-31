@@ -41,6 +41,16 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Vocabulary
+                        </Link>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <Link className="dropdown-item" to="/vocabulary/jlpt5">Vocabulary JLPT 5</Link>
+                            </li>
+                        </ul>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Quiz
                         </Link>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -52,7 +62,6 @@ const NavBar = () => {
                             </li>
                         </ul>
                     </li>
-
                 </ul>
 
             </div>

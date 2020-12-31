@@ -18,6 +18,7 @@ import GradeFiveScreen from './Screens/GradeFiveScreen';
 import GradeSixScreen from './Screens/GradeSixScreen';
 import QuizFurigana from './Screens/QuizFurigana';
 import QuizKanji from './Screens/QuizKanji';
+import VocabJlpt5 from './Screens/VocabJlpt5';
 
 const App = () => {
 
@@ -35,7 +36,7 @@ const App = () => {
       // Les données sont dans le fichier public :
       const response = await fetch('../data/kanji-list.json');
       const data = await response.json();
-      console.log(data);
+      // console.log(data);
       
       setGradeOneKanji(data.GradeOne);
       setGradeTwoKanji(data.GradeTwo);
@@ -79,6 +80,7 @@ const App = () => {
                 gradeSix={gradeSixKanji}
               />} 
           />
+          <Route path="/vocabulary/jlpt5" component={VocabJlpt5} />
         </Switch>
         </main>
 
