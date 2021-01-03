@@ -193,6 +193,34 @@ body {
 
 /* Fin page Kanji Quiz */
 
+/* Page Vocabulary */
+
+.container-fluid .wrap .cardVocab {
+  width: 32%;
+  margin: 5px auto;
+}
+
+.container-fluid .wrap .cardVocab .card-body .card-text {
+  font-size: 58px;
+  text-align: center;
+}
+
+.container-fluid .wrap .cardVocab .list-group .list-group-item {
+  text-align: center;
+}
+
+.container-fluid .wrap .cardVocab .list-group .list-group-item div .button {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container-fluid .wrap .cardVocab .list-group .list-group-item .furigana, .container-fluid .wrap .cardVocab .list-group .list-group-item .translation {
+  font-size: 22px;
+}
+
+
+/* Fin page vocabulary */
+
 /* Footer */ 
 
 footer {
@@ -211,6 +239,8 @@ footer {
 }
 
 /* Fin de footer */
+
+
 
 /* Media Queries */
 @media screen and (max-width: 991px) {
