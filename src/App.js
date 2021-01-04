@@ -18,7 +18,10 @@ import GradeFiveScreen from './Screens/GradeFiveScreen';
 import GradeSixScreen from './Screens/GradeSixScreen';
 import QuizFurigana from './Screens/QuizFurigana';
 import QuizKanji from './Screens/QuizKanji';
-import VocabJlpt5 from './Screens/VocabJlpt5';
+import VocabJlpt5Screen from './Screens/VocabJlpt5Screen';
+import VocabJlpt4Screen from './Screens/VocabJlpt4Screen';
+import VocabJlpt3Screen from './Screens/VocabJlpt3Screen';
+import VocabJlpt2Screen from './Screens/VocabJlpt2Screen';
 
 const App = () => {
 
@@ -80,7 +83,10 @@ const App = () => {
                 gradeSix={gradeSixKanji}
               />} 
           />
-          <Route path="/vocabulary/jlpt5" component={VocabJlpt5} />
+          <Route path="/vocabulary/jlpt5" component={VocabJlpt5Screen} />
+          <Route path="/vocabulary/jlpt4" component={VocabJlpt4Screen} />
+          <Route path="/vocabulary/jlpt3" component={VocabJlpt3Screen} />
+          <Route path="/vocabulary/jlpt2" component={VocabJlpt2Screen} />
         </Switch>
         </main>
 

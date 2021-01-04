@@ -45,6 +45,15 @@ const NavBar = () => {
                         </Link>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li>
+                                <Link className="dropdown-item" to="/vocabulary/jlpt2">Vocabulary JLPT 2</Link>
+                            </li>
+                            <li>
+                                <Link className="dropdown-item" to="/vocabulary/jlpt3">Vocabulary JLPT 3</Link>
+                            </li>
+                            <li>
+                                <Link className="dropdown-item" to="/vocabulary/jlpt4">Vocabulary JLPT 4</Link>
+                            </li>
+                            <li>
                                 <Link className="dropdown-item" to="/vocabulary/jlpt5">Vocabulary JLPT 5</Link>
                             </li>
                         </ul>

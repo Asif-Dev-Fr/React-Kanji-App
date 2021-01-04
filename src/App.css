@@ -40,13 +40,13 @@ body {
   padding-top: 35px;
 }
 
-.container-fluid .row .col-lg-4 .linkStyle .buttonStyle {
+.container-fluid .row .homeButton .linkStyle .buttonStyle {
   width: 90%;
-  height: 100px;
+  height: 90px;
   margin: 15px auto;
 }
 
-.container-fluid .row .col-lg-4 .linkStyle {
+.container-fluid .row .homeButton .linkStyle {
   text-decoration: none;
   color: #FFF;
 }
@@ -228,7 +228,7 @@ footer {
   color: #FFF;
   height: 50px;
   line-height: 50px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   width: 97.4%;
 }
 

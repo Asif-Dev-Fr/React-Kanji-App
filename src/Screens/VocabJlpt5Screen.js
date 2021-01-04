@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
-const VocabJlpt5 = () => {
+const VocabJlpt5Screen = () => {
 
     const [vocabulary, setVocabulary] = useState([]);
     const [furigana, setFurigana] = useState('');
     const [translation, setTranslation] = useState('');
     const [duplicateFurigana, setDuplicateFurigana] = useState('');
-    const [duplicate, setDuplicate] = useState(false);
 
     useEffect(() => {
         const retrieveData = async () => {
@@ -15,6 +14,8 @@ const VocabJlpt5 = () => {
             setVocabulary(data);
         }
         retrieveData();
+        const footer = document.getElementById('footer');
+        footer.classList.remove('footer-bottom');
     }, [])
     return (
         <div className="center wrap">
@@ -75,4 +76,4 @@ const VocabJlpt5 = () => {
     )
 }
 
-export default VocabJlpt5;
+export default VocabJlpt5Screen;
