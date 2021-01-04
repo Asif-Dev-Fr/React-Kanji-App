@@ -238,6 +238,10 @@ footer {
   width: 100%;
 }
 
+footer .row .col-lg-6 a {
+  color: #FFF;
+}
+
 /* Fin de footer */
 
 
