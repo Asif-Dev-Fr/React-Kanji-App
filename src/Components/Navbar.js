@@ -69,6 +69,9 @@ const NavBar = () => {
                             <li>
                                 <Link className="dropdown-item" to="/kanji/quiz">Kanji Quiz</Link>
                             </li>
+                            <li>
+                                <Link className="dropdown-item" to="/vocabulary/quiz">Vocabulary Quiz</Link>
+                            </li>
                         </ul>
                     </li>
                 </ul>

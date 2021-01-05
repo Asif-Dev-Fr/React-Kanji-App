@@ -16,7 +16,7 @@ const VocabJlpt2Screen = () => {
         retrieveData();
         const footer = document.getElementById('footer');
         footer.classList.remove('footer-bottom');
-    }, [])
+    }, []);
     return (
         <div className="center wrap">
             {

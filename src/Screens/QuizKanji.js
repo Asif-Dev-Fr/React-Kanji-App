@@ -29,7 +29,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         setButtonSixColor(defaultColor);
 
         const footer = document.getElementById('footer');
-        footer.classList.remove('footer-bottom');
+        footer.classList.add('footer-bottom');
     },[gradeOne]);
 
     const defaultColor = 'btn btn-primary';
@@ -177,7 +177,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
     }
 
     const changeKanji = () => {
-        setRandomKanji(Math.floor(Math.random() * gradeOne.length))
+        setRandomKanji(Math.floor(Math.random() * kanjiGrade.length))
     }
     
 

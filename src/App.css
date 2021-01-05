@@ -165,7 +165,7 @@ body {
 
 .container-fluid .quiz .cardStyle {
   width: 38%;
-  margin: 60px auto 40px auto;
+  margin: 50px auto 30px auto;
 }
 
 .container-fluid .quiz .cardStyle .card-body .card-text {
@@ -218,14 +218,13 @@ body {
   font-size: 22px;
 }
 
-
 /* Fin page vocabulary */
 
 /* Page Quiz Vocabulary */
 
 .container-fluid .center .cardVocabQuiz {
-  width: 32%;
-  margin: 5px auto;
+  width: 46%;
+  margin: 60px auto;
 }
 
 .container-fluid .center .cardVocabQuiz .card-body .card-text {
@@ -244,6 +243,24 @@ body {
 
 .container-fluid .center .cardVocabQuiz .list-group .list-group-item .furigana, .container-fluid .center .cardVocabQuiz .list-group .list-group-item .translation {
   font-size: 22px;
+}
+
+.container-fluid .center .buttonChangeVocab .col-lg-3 {
+  text-align: center;
+}
+
+.container-fluid .center .buttonChangeVocab .col-lg-3 button  {
+  width: 190px;
+  margin: 5px;
+}
+
+.container-fluid .center .nextVocabButton {
+  text-align: center;
+}
+
+.container-fluid .center .nextVocabButton button {
+  width: 380px;
+  border-radius: 5px;
 }
 
 /* Fin page vocabulary */
@@ -305,4 +322,13 @@ footer .row .col-lg-6 a {
     margin-bottom: 5px;
   }
 
+  .container-fluid .center .cardVocabQuiz {
+    width: 90%;
+    margin: 30px auto 30px auto;
+  }
+
+  .container-fluid .center .nextVocabButton button {
+    width: 80%;
+    margin-bottom: 5px;
+  }
 }
