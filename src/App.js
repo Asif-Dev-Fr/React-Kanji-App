@@ -22,6 +22,7 @@ import VocabJlpt5Screen from './Screens/VocabJlpt5Screen';
 import VocabJlpt4Screen from './Screens/VocabJlpt4Screen';
 import VocabJlpt3Screen from './Screens/VocabJlpt3Screen';
 import VocabJlpt2Screen from './Screens/VocabJlpt2Screen';
+import QuizVocabularyScreen from './Screens/QuizVocabularyScreen';
 
 const App = () => {
 
@@ -87,6 +88,7 @@ const App = () => {
           <Route path="/vocabulary/jlpt4" component={VocabJlpt4Screen} />
           <Route path="/vocabulary/jlpt3" component={VocabJlpt3Screen} />
           <Route path="/vocabulary/jlpt2" component={VocabJlpt2Screen} />
+          <Route path="/vocabulary/quiz" component={QuizVocabularyScreen} />
         </Switch>
         </main>
 

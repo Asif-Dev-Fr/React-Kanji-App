@@ -58,7 +58,6 @@ const VocabJlpt4Screen = () => {
                                         else {
                                             setTranslation('');
                                             setDuplicateFurigana('');
-                                            console.log('else');
                                         }
                                     }}>
                                         {(translation === value[2] && duplicateFurigana === value[1]) ? ('Hide translation') : ('Show translation')}

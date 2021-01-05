@@ -69,7 +69,7 @@ const HomeScreen = () => {
                 <div className="col-lg-3 homeButton">
                     <Link to="/vocabulary/jlpt2" className="linkStyle">
                         <button className="btn btn-warning buttonStyle">
-                            Vocabulary JLPT 2 
+                            Vocabulary JLPT N2 
                         </button>
                     </Link>
                 </div>
@@ -80,7 +80,7 @@ const HomeScreen = () => {
                 <div className="col-lg-3 homeButton">
                     <Link to="/vocabulary/jlpt3" className="linkStyle">
                         <button className="btn btn-warning buttonStyle">
-                            Vocabulary JLPT 3 
+                            Vocabulary JLPT N3 
                         </button>
                     </Link>
                 </div>
@@ -88,7 +88,7 @@ const HomeScreen = () => {
                 <div className="col-lg-3 homeButton">
                     <Link to="/vocabulary/jlpt4" className="linkStyle">
                         <button className="btn btn-warning buttonStyle">
-                            Vocabulary JLPT 4 
+                            Vocabulary JLPT N4 
                         </button>
                     </Link>
                 </div>
@@ -96,7 +96,7 @@ const HomeScreen = () => {
                 <div className="col-lg-3 homeButton">
                     <Link to="/vocabulary/jlpt5" className="linkStyle">
                         <button className="btn btn-warning buttonStyle">
-                            Vocabulary JLPT 5 
+                            Vocabulary JLPT N5 
                         </button>
                     </Link>
                 </div>
@@ -116,6 +116,13 @@ const HomeScreen = () => {
                     <Link to="/kanji/quiz" className="linkStyle">
                         <button className="btn btn-primary buttonStyle">
                             Kanji Quiz
+                        </button>
+                    </Link>
+                </div>
+                <div className="col-lg-3 homeButton">
+                    <Link to="/vocabulary/quiz" className="linkStyle">
+                        <button className="btn btn-primary buttonStyle">
+                            Vocabulary Quiz
                         </button>
                     </Link>
                 </div>

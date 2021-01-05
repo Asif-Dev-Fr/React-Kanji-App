@@ -1,27 +1,32 @@
-import React, { useState, useEffect } from 'react';
+import React,  { useState, useEffect } from 'react';
 
-const VocabJlpt3Screen = () => {
+const QuizVocabularyScreen = () => {
 
     const [vocabulary, setVocabulary] = useState([]);
+    const [randomVocabulary, setRandomVocabulary] = useState(0);
     const [furigana, setFurigana] = useState('');
     const [translation, setTranslation] = useState('');
     const [duplicateFurigana, setDuplicateFurigana] = useState('');
 
     useEffect(() => {
         const retrieveData = async () => {
-            const reponse = await fetch('../data/jlpt3.json');
-            const data = await reponse.json();
+            const response = await fetch('../data/jlpt5.json');
+            const data = await response.json();
             setVocabulary(data);
+            
+            const randomNumber = Math.floor(Math.random() * data.length);
+            setRandomVocabulary(randomNumber);
+
+            
         }
         retrieveData();
-        const footer = document.getElementById('footer');
-        footer.classList.remove('footer-bottom');
-    }, [])
+    },[]);
+
     return (
-        <div className="center wrap">
+        <div className="center">
             {
-                vocabulary.map((value) => (
-                    <div className="card cardVocab" key={value[0] + '_' + value[1]}>
+                vocabulary.slice(randomVocabulary, randomVocabulary + 1).map((value) => (
+                    <div className="card cardVocabQuiz" key={value[0] + '_' + value[1]}>
                         <div className="card-body">
                             <div className="card-text">
                                 <div>
@@ -53,11 +58,9 @@ const VocabJlpt3Screen = () => {
                                     <button className="button" onClick={() => {
                                         if (translation !== value[2]) {
                                             setTranslation(value[2]);
-                                            setDuplicateFurigana(value[1]);
                                         }
                                         else {
                                             setTranslation('');
-                                            setDuplicateFurigana('');
                                         }
                                     }}>
                                         {(translation === value[2] && duplicateFurigana === value[1]) ? ('Hide translation') : ('Show translation')}
@@ -75,4 +78,4 @@ const VocabJlpt3Screen = () => {
     )
 }
 
-export default VocabJlpt3Screen;
+export default QuizVocabularyScreen;

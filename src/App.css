@@ -221,6 +221,33 @@ body {
 
 /* Fin page vocabulary */
 
+/* Page Quiz Vocabulary */
+
+.container-fluid .center .cardVocabQuiz {
+  width: 32%;
+  margin: 5px auto;
+}
+
+.container-fluid .center .cardVocabQuiz .card-body .card-text {
+  font-size: 58px;
+  text-align: center;
+}
+
+.container-fluid .center .cardVocabQuiz .list-group .list-group-item {
+  text-align: center;
+}
+
+.container-fluid .center .cardVocabQuiz .list-group .list-group-item div .button {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container-fluid .center .cardVocabQuiz .list-group .list-group-item .furigana, .container-fluid .center .cardVocabQuiz .list-group .list-group-item .translation {
+  font-size: 22px;
+}
+
+/* Fin page vocabulary */
+
 /* Footer */ 
 
 footer {

@@ -29,7 +29,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         setButtonSixColor(defaultColor);
 
         const footer = document.getElementById('footer');
-        footer.classList.add('footer-bottom');
+        footer.classList.remove('footer-bottom');
     },[gradeOne]);
 
     const defaultColor = 'btn btn-primary';
