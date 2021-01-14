@@ -12,7 +12,7 @@ const QuizVocabularyScreen = () => {
     const [buttonThreeColor, setButtonThreeColor] = useState();
     const [buttonFourColor, setButtonFourColor] = useState();
 
-    const defaultColor = 'btn btn-primary';
+    const defaultColor = 'btn btn-warning';
     const selectedColor = 'btn btn-dark';
 
     useEffect(() => {
@@ -157,7 +157,7 @@ const QuizVocabularyScreen = () => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div>
-                                    <button className="button" onClick={() => {
+                                    <button className="button btn btn-primary" onClick={() => {
                                         if (furigana !== value[1]) {
                                             setFurigana(value[1]);
                                         } else {
@@ -173,7 +173,7 @@ const QuizVocabularyScreen = () => {
                             </li>
                             <li className="list-group-item">
                                 <div>
-                                    <button className="button" onClick={() => {
+                                    <button className="button btn btn-primary" onClick={() => {
                                         if (translation !== value[2]) {
                                             setTranslation(value[2]);
                                         }
@@ -193,7 +193,7 @@ const QuizVocabularyScreen = () => {
                 ))
             }
             <div className="nextVocabButton">
-                <button onClick={changeVocabulary}>Next Word</button>
+                <button className='btn btn-primary' onClick={changeVocabulary}>Next Word</button>
             </div>
         </div>
     )

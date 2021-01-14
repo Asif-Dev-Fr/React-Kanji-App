@@ -34,7 +34,7 @@ const VocabJlpt2Screen = () => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div>
-                                    <button className="button" onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (furigana !== value[1]) {
                                             setFurigana(value[1]);
                                         } else {
@@ -50,7 +50,7 @@ const VocabJlpt2Screen = () => {
                             </li>
                             <li className="list-group-item">
                                 <div>
-                                    <button className="button" onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (translation !== value[2]) {
                                             setTranslation(value[2]);
                                             setDuplicateFurigana(value[1]);

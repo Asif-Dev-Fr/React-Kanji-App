@@ -30,7 +30,7 @@ const HomeScreen = () => {
                 <div className="col-lg-3 homeButton">
                     <Link to="/kanjis/grade-two" className="linkStyle">
                         <button className="btn btn-success buttonStyle">
-                            Grade Deux Kanjis
+                            Grade Two Kanjis
                             </button>
                     </Link>
                 </div>

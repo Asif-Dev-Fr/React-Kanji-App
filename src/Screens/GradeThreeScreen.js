@@ -24,7 +24,7 @@ const GradeThreeScreen = ({ gradeThree }) => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div>
-                                    <button className='button' onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (translation !== value.translation) {
                                             setTranslation(value.translation);
                                         } else {
@@ -41,7 +41,7 @@ const GradeThreeScreen = ({ gradeThree }) => {
                             </li>
                             <li className="list-group-item">
                                 <div>
-                                    <button className='button' onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (onyomi !== value.furigana.onyomi) {
                                             setOnyomi(value.furigana.onyomi);
                                         } else {
@@ -67,7 +67,7 @@ const GradeThreeScreen = ({ gradeThree }) => {
                             </li>
                             <li className="list-group-item">
                                 <div>
-                                    <button className='button' onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (kunyomi !== value.furigana.kunyomi) {
                                             setKunyomi(value.furigana.kunyomi);
                                         } else {

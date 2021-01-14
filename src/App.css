@@ -77,6 +77,7 @@ body {
 .container-fluid .wrap .cardStyle .list-group .list-group-item .button {
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 3px;
 }
 
 .container-fluid .wrap .cardStyle .list-group .list-group-item .onyomi, .container-fluid .wrap .cardStyle .list-group .list-group-item .kunyomi {
@@ -180,6 +181,7 @@ body {
 .container-fluid .quiz .cardStyle .list-group .list-group-item div .button {
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 3px;
 }
 
 .container-fluid .center .kanjiChangeButton {
@@ -212,6 +214,7 @@ body {
 .container-fluid .wrap .cardVocab .list-group .list-group-item div .button {
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 3px;
 }
 
 .container-fluid .wrap .cardVocab .list-group .list-group-item .furigana, .container-fluid .wrap .cardVocab .list-group .list-group-item .translation {
@@ -239,6 +242,7 @@ body {
 .container-fluid .center .cardVocabQuiz .list-group .list-group-item div .button {
   width: 100%;
   border-radius: 5px;
+  margin-bottom: 3px;
 }
 
 .container-fluid .center .cardVocabQuiz .list-group .list-group-item .furigana, .container-fluid .center .cardVocabQuiz .list-group .list-group-item .translation {

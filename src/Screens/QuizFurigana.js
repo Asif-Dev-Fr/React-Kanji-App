@@ -48,7 +48,7 @@ const QuizFurigana = () => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div className="button">
-                                    <button onClick={() => {
+                                    <button className='btn btn-primary' onClick={() => {
                                         if (id !== value.id) {
                                             setId(value.id);
                                         } else {
@@ -67,7 +67,7 @@ const QuizFurigana = () => {
                 ))
             }
             <div className="furiganaChangeButton">
-                <button onClick={changeFurigana}>Next Furigana</button>
+                <button className='btn btn-primary' onClick={changeFurigana}>Next Furigana</button>
             </div>
 
         </div>

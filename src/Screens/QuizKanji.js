@@ -32,7 +32,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
         footer.classList.add('footer-bottom');
     },[gradeOne]);
 
-    const defaultColor = 'btn btn-primary';
+    const defaultColor = 'btn btn-warning';
     const selectedColor = 'btn btn-dark';
 
     const gradeOneKanji = (event) => {
@@ -217,7 +217,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item">
                                     <div>
-                                        <button className='button' onClick={() => {
+                                        <button className='button btn btn-primary' onClick={() => {
                                             if (translation !== value.translation) {
                                                 setTranslation(value.translation);
                                             } else {
@@ -234,7 +234,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
                                 </li>
                                 <li className="list-group-item">
                                     <div>
-                                        <button className='button' onClick={() => {
+                                        <button className='button btn btn-primary' onClick={() => {
                                             if (onyomi !== value.furigana.onyomi) {
                                                 setOnyomi(value.furigana.onyomi);
                                             } else {
@@ -260,7 +260,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
                                 </li>
                                 <li className="list-group-item">
                                     <div>
-                                        <button className='button' onClick={() => {
+                                        <button className='button btn btn-primary' onClick={() => {
                                             if (kunyomi !== value.furigana.kunyomi) {
                                                 setKunyomi(value.furigana.kunyomi);
                                             } else {
@@ -291,7 +291,7 @@ const QuizKanji = ({gradeOne, gradeTwo, gradeThree, gradeFour, gradeFive, gradeS
                 }
             </div>
             <div className="kanjiChangeButton">
-                <button onClick={changeKanji}>Next Kanji</button>
+                <button className='btn btn-primary' onClick={changeKanji}>Next Kanji</button>
             </div>
         </div>
     )

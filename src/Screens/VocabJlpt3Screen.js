@@ -21,7 +21,7 @@ const VocabJlpt3Screen = () => {
         <div className="center wrap">
             {
                 vocabulary.map((value) => (
-                    <div className="card cardVocab" key={value[0] + '_' + value[1]}>
+                    <div className="card cardVocab" key={value[0] + '_' + value[1] + '_' + value[2]}>
                         <div className="card-body">
                             <div className="card-text">
                                 <div>
@@ -34,7 +34,7 @@ const VocabJlpt3Screen = () => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div>
-                                    <button className="button" onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (furigana !== value[1]) {
                                             setFurigana(value[1]);
                                         } else {
@@ -50,7 +50,7 @@ const VocabJlpt3Screen = () => {
                             </li>
                             <li className="list-group-item">
                                 <div>
-                                    <button className="button" onClick={() => {
+                                    <button className='button btn btn-primary' onClick={() => {
                                         if (translation !== value[2]) {
                                             setTranslation(value[2]);
                                             setDuplicateFurigana(value[1]);

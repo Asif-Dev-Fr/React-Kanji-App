@@ -40,7 +40,7 @@ const Furigana = () => {
                         <ul className="list-group list-group-flush">
                             <li className="list-group-item">
                                 <div className="button">
-                                    <button onClick={() => {
+                                    <button className="btn btn-primary" onClick={() => {
                                         if (id !== value.id) {
                                             setId(value.id);
                                         } else {
