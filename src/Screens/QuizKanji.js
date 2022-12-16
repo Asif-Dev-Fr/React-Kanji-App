@@ -25,9 +25,8 @@ const QuizKanji = ({
   const [onyomi, setOnyomi] = useState([]);
 
   useEffect(() => {
+    setRandomKanji(Math.floor(Math.random() * gradeOne.length));
     setKanjiGrade(gradeOne);
-    const randomNumber = Math.floor(Math.random() * gradeOne.length);
-    setRandomKanji(randomNumber);
 
     const footer = document.getElementById("footer");
     footer.classList.add("footer-bottom");
@@ -49,28 +48,28 @@ const QuizKanji = ({
 
     switch (selected) {
       case "one":
-        setKanjiGrade(gradeOne);
         setRandomKanji(Math.floor(Math.random() * gradeOne.length));
+        setKanjiGrade(gradeOne);
         break;
       case "two":
-        setKanjiGrade(gradeTwo);
         setRandomKanji(Math.floor(Math.random() * gradeTwo.length));
+        setKanjiGrade(gradeTwo);
         break;
       case "three":
-        setKanjiGrade(gradeThree);
         setRandomKanji(Math.floor(Math.random() * gradeThree.length));
+        setKanjiGrade(gradeThree);
         break;
       case "four":
-        setKanjiGrade(gradeFour);
         setRandomKanji(Math.floor(Math.random() * gradeFour.length));
+        setKanjiGrade(gradeFour);
         break;
       case "five":
-        setKanjiGrade(gradeFive);
         setRandomKanji(Math.floor(Math.random() * gradeFive.length));
+        setKanjiGrade(gradeFive);
         break;
       case "six":
-        setKanjiGrade(gradeSix);
         setRandomKanji(Math.floor(Math.random() * gradeSix.length));
+        setKanjiGrade(gradeSix);
         break;
     }
   };
