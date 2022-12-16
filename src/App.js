@@ -1,32 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import NavBar from './Components/Navbar';
-import {Footer} from './Components/Footer';
-import HomeScreen from './Screens/HomeScreen';
-import Furigana from './Screens/Furigata';
-import GradeOneScreen from './Screens/GradeOneScreen';
-import GradeTwoScreen from './Screens/GradeTwoScreen';
-import GradeThreeScreen from './Screens/GradeThreeScreen';
-import GradeFourScreen from './Screens/GradeFourScreen';
-import GradeFiveScreen from './Screens/GradeFiveScreen';
-import GradeSixScreen from './Screens/GradeSixScreen';
-import QuizFurigana from './Screens/QuizFurigana';
-import QuizKanji from './Screens/QuizKanji';
-import VocabJlpt5Screen from './Screens/VocabJlpt5Screen';
-import VocabJlpt4Screen from './Screens/VocabJlpt4Screen';
-import VocabJlpt3Screen from './Screens/VocabJlpt3Screen';
-import VocabJlpt2Screen from './Screens/VocabJlpt2Screen';
-import QuizVocabularyScreen from './Screens/QuizVocabularyScreen';
+import NavBar from "./Components/Navbar";
+import { Footer } from "./Components/Footer";
+import HomeScreen from "./Screens/HomeScreen";
+import Furigana from "./Screens/Furigata";
+import GradeOneScreen from "./Screens/GradeOneScreen";
+import GradeTwoScreen from "./Screens/GradeTwoScreen";
+import GradeThreeScreen from "./Screens/GradeThreeScreen";
+import GradeFourScreen from "./Screens/GradeFourScreen";
+import GradeFiveScreen from "./Screens/GradeFiveScreen";
+import GradeSixScreen from "./Screens/GradeSixScreen";
+import QuizFurigana from "./Screens/QuizFurigana";
+import QuizKanji from "./Screens/QuizKanji";
+import VocabJlpt5Screen from "./Screens/VocabJlpt5Screen";
+import VocabJlpt4Screen from "./Screens/VocabJlpt4Screen";
+import VocabJlpt3Screen from "./Screens/VocabJlpt3Screen";
+import VocabJlpt2Screen from "./Screens/VocabJlpt2Screen";
+import QuizVocabularyScreen from "./Screens/QuizVocabularyScreen";
 
 const App = () => {
-
-  const [chuugakkouKanjis, setChuugakkouKanjis] = useState([]);
   const [gradeOneKanji, setGradeOneKanji] = useState([]);
   const [gradeTwoKanji, setGradeTwoKanji] = useState([]);
   const [gradeThreeKanji, setGradeThreeKanji] = useState([]);
@@ -35,23 +29,21 @@ const App = () => {
   const [gradeSixKanji, setGradeSixKanji] = useState([]);
 
   useEffect(() => {
-
     const retrieveData = async () => {
       // Les données sont dans le fichier public :
-      const response = await fetch('../data/kanji-list.json');
+      const response = await fetch("../data/kanji-list.json");
       const data = await response.json();
-      // console.log(data);
-      
-      setGradeOneKanji(data.GradeOne);
-      setGradeTwoKanji(data.GradeTwo);
-      setGradeThreeKanji(data.GradeThree);
-      setGradeFourKanji(data.GradeFour);
-      setGradeFiveKanji(data.GradeFive);
-      setGradeSixKanji(data.GradeSix);
+      if (data) {
+        setGradeOneKanji(data.GradeOne);
+        setGradeTwoKanji(data.GradeTwo);
+        setGradeThreeKanji(data.GradeThree);
+        setGradeFourKanji(data.GradeFour);
+        setGradeFiveKanji(data.GradeFive);
+        setGradeSixKanji(data.GradeSix);
+      }
     };
-    retrieveData();    
+    retrieveData();
   }, []);
-
 
   return (
     <Router>
@@ -60,43 +52,66 @@ const App = () => {
           <NavBar />
         </header>
         <main>
-        <Switch>
-          <Route path='/' exact component={HomeScreen} />
+          <Routes>
+            <Route path="/" exact element={<HomeScreen />} />
 
-          <Route path='/furigana' exact component={Furigana} />
-          <Route path='/furigana/quiz' component={QuizFurigana} />
+            <Route path="/furigana" exact element={<Furigana />} />
+            <Route path="/furigana/quiz" element={<QuizFurigana />} />
 
-          <Route path='/kanjis/grade-one'render={() => <GradeOneScreen gradeOne={gradeOneKanji} />} />
-          <Route path='/kanjis/grade-two' render={() => <GradeTwoScreen gradeTwo={gradeTwoKanji} />}  />
-          <Route path='/kanjis/grade-three' render={() => <GradeThreeScreen gradeThree={gradeThreeKanji} />} />
-          <Route path='/kanjis/grade-three' render={() => <GradeThreeScreen gradeThree={gradeThreeKanji} />}  />
-          <Route path='/kanjis/grade-four' render={() => <GradeFourScreen gradeFour={gradeFourKanji} />}  />
-          <Route path='/kanjis/grade-five' render={() => <GradeFiveScreen gradeFive={gradeFiveKanji} />}  />
-          <Route path='/kanjis/grade-six' render={() => <GradeSixScreen gradeSix={gradeSixKanji} />}  />
+            <Route
+              path="/kanjis/grade-one"
+              element={<GradeOneScreen gradeOne={gradeOneKanji} />}
+            />
+            <Route
+              path="/kanjis/grade-two"
+              element={<GradeTwoScreen gradeTwo={gradeTwoKanji} />}
+            />
+            <Route
+              path="/kanjis/grade-three"
+              element={<GradeThreeScreen gradeThree={gradeThreeKanji} />}
+            />
+            <Route
+              path="/kanjis/grade-three"
+              element={<GradeThreeScreen gradeThree={gradeThreeKanji} />}
+            />
+            <Route
+              path="/kanjis/grade-four"
+              element={<GradeFourScreen gradeFour={gradeFourKanji} />}
+            />
+            <Route
+              path="/kanjis/grade-five"
+              element={<GradeFiveScreen gradeFive={gradeFiveKanji} />}
+            />
+            <Route
+              path="/kanjis/grade-six"
+              element={<GradeSixScreen gradeSix={gradeSixKanji} />}
+            />
 
-          <Route path='/kanji/quiz' 
-            render={() => <QuizKanji 
-                gradeOne={gradeOneKanji} 
-                gradeTwo={gradeTwoKanji}  
-                gradeThree={gradeThreeKanji}  
-                gradeFour={gradeFourKanji}
-                gradeFive={gradeFiveKanji}
-                gradeSix={gradeSixKanji}
-              />} 
-          />
-          <Route path="/vocabulary/jlpt5" component={VocabJlpt5Screen} />
-          <Route path="/vocabulary/jlpt4" component={VocabJlpt4Screen} />
-          <Route path="/vocabulary/jlpt3" component={VocabJlpt3Screen} />
-          <Route path="/vocabulary/jlpt2" component={VocabJlpt2Screen} />
-          <Route path="/vocabulary/quiz" component={QuizVocabularyScreen} />
-        </Switch>
+            <Route
+              path="/kanji/quiz"
+              element={
+                <QuizKanji
+                  gradeOne={gradeOneKanji}
+                  gradeTwo={gradeTwoKanji}
+                  gradeThree={gradeThreeKanji}
+                  gradeFour={gradeFourKanji}
+                  gradeFive={gradeFiveKanji}
+                  gradeSix={gradeSixKanji}
+                />
+              }
+            />
+            <Route path="/vocabulary/jlpt5" element={<VocabJlpt5Screen />} />
+            <Route path="/vocabulary/jlpt4" element={<VocabJlpt4Screen />} />
+            <Route path="/vocabulary/jlpt3" element={<VocabJlpt3Screen />} />
+            <Route path="/vocabulary/jlpt2" element={<VocabJlpt2Screen />} />
+            <Route path="/vocabulary/quiz" element={<QuizVocabularyScreen />} />
+          </Routes>
         </main>
 
         <Footer />
-        
       </div>
     </Router>
   );
-}
+};
 
 export default App;
